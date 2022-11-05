@@ -1,0 +1,67 @@
+[
+
+    {
+  
+      "pk": 1,
+  
+      "model": "products.region",
+  
+      "fields": {
+  
+        "name": "region_a",
+  
+        "friendly_name": "Region A"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 2,
+  
+      "model": "products.region",
+  
+      "fields": {
+  
+        "name": "region_b",
+  
+        "friendly_name": "Region B"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 3,
+  
+      "model": "products.region",
+  
+      "fields": {
+  
+        "name": "region_c",
+  
+        "friendly_name": "Region C"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 4,
+  
+      "model": "products.region",
+  
+      "fields": {
+  
+        "name": "region_free",
+  
+        "friendly_name": "Region Free"
+  
+      }
+  
+    }
+  
+  ]

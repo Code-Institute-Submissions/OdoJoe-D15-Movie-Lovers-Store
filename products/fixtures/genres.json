@@ -1,0 +1,99 @@
+[
+
+    {
+  
+      "pk": 1,
+  
+      "model": "products.genre",
+  
+      "fields": {
+  
+        "name": "horror",
+  
+        "friendly_name": "Horror"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 2,
+  
+      "model": "products.genre",
+  
+      "fields": {
+  
+        "name": "sci_fi",
+  
+        "friendly_name": "Sci-Fi"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 3,
+  
+      "model": "products.genre",
+  
+      "fields": {
+  
+        "name": "action",
+  
+        "friendly_name": "Action"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 4,
+  
+      "model": "products.genre",
+  
+      "fields": {
+  
+        "name": "western",
+  
+        "friendly_name": "Western"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 5,
+  
+      "model": "products.genre",
+  
+      "fields": {
+  
+        "name": "classic",
+  
+        "friendly_name": "Classic"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 6,
+  
+      "model": "products.genre",
+  
+      "fields": {
+  
+        "name": "hong_kong_cinema",
+  
+        "friendly_name": "Hong Kong Cinema"
+  
+      }
+  
+    }
+  
+  ]

@@ -1,0 +1,357 @@
+[
+
+    {
+  
+      "pk": 1,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "The Thing",
+  
+        "format": 2,
+  
+        "is_special_edition": true,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 39.99,
+  
+        "genre": 1,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 2,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "Aliens",
+  
+        "format": 1,
+  
+        "is_special_edition": false,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 21.99,
+  
+        "genre": 2,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 3,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "2001 A Space Odyssey",
+  
+        "format": 2,
+  
+        "is_special_edition": true,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 53.99,
+  
+        "genre": 2,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 4,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "The Night of the Hunter",
+  
+        "format": 1,
+  
+        "is_special_edition": false,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 10.99,
+  
+        "genre": 5,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 5,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "Network",
+  
+        "format": 1,
+  
+        "is_special_edition": false,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 10.99,
+  
+        "genre": 5,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 6,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "Way of the Dragon",
+  
+        "format": 1,
+  
+        "is_special_edition": false,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 10.99,
+  
+        "genre": 6,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 7,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "Dragons Forever",
+  
+        "format": 2,
+  
+        "is_special_edition": true,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 29.99,
+  
+        "genre": 6,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 8,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "Millionaires Express",
+  
+        "format": 1,
+  
+        "is_special_edition": true,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 22.99,
+  
+        "genre": 6,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 9,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "Once upon a Time in the West",
+  
+        "format": 1,
+  
+        "is_special_edition": false,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 11.99,
+  
+        "genre": 4,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 10,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "A Fistfull of Dollars",
+  
+        "format": 1,
+  
+        "is_special_edition": false,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 10.99,
+  
+        "genre": 4,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    },
+  
+    {
+  
+      "pk": 11,
+  
+      "model": "products.stockitem",
+  
+      "fields": {
+  
+        "sku": "joe19771984",
+  
+        "name": "First Blood",
+  
+        "format": 2,
+  
+        "is_special_edition": true,
+  
+        "region": 1,
+  
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  
+        "price": 24.99,
+  
+        "genre": 3,
+  
+        "rating": -1,
+  
+        "image": "image.jpg"
+  
+      }
+  
+    }
+  
+  ]
+  
+  
