@@ -17,9 +17,9 @@
                 Blu Ray
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="" class="dropdown-item">Blu-ray</a>
-                <a href="" class="dropdown-item">4k UHD</a>
-                <a href="" class="dropdown-item">Special Editions</a>
+                <a href="{% url 'stockitems' %}?format=blu_ray" class="dropdown-item">Blu-ray</a>
+                <a href="{% url 'stockitems' %}?format=4k_uhd" class="dropdown-item">4k UHD</a>
+                <a href="{% url 'stockitems' %}?specialeditions" class="dropdown-item">Special Editions</a>
             </div>
         </li>
 
