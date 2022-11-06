@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col"></div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="overlay"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
+                <div class="image-container my-5">
+                    {% if stockitem.image %}
+                        <a href="{{ stockitem.image.url }}" target="_blank">
+                            <img class="card-img-top img-fluid" src="{{ stockitem.image.url }}" alt="{{ stockitem.name }}">
+                        </a>
+                        {% else %}
+                        <a href="">
+                            <img class="card-img-top img-fluid" src="/media/noimage.png" alt="{{ stockitem.name }}">
+                        </a>
+                    {% endif %}
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="product-details-container mb-5 mt-md-5">
+                    <p class="mb-0">{{ stockitem.name }}</p>
+                    <p class="lead mb-0 text-left font-weight-bold">${{ stockitem.price }}</p>
+                    {% if stockitem.rating %}
+                        <small class="text-muted"><i class="fas fa-star mr-1"></i>{{ stockitem.rating }} / 5</small>
+                    {% else %}
+                        <small class="text-muted">No Rating</small>
+                    {% endif %}
+                    <p class="mt-3"><strong>Genre:</strong> {{ stockitem.genre }}</p>
+                    <p class="mt-3"><strong>Format:</strong> {{ stockitem.format }}</p>
+                    <p class="mt-3"><strong>Region:</strong> {{ stockitem.region }}</p>
+                    <p class="mt-3">{{ stockitem.description }}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
