@@ -13,6 +13,18 @@ def all_stockitems(request):
     user_message = ''
 
     if request.GET:
+        if 'sort' in request.GET:
+            sortkey = request.GET['sort']
+            actual_sortkey = sortkey
+            if 'direction' in request.GET:
+                direction = request.GET['direction']
+                if direction == 'desc':
+                    sortkey = f'-{sortkey}'
+
+            user_message = f'You are sorting by {actual_sortkey} ({direction}).'
+            messages.add_message(request, messages.INFO, user_message)
+            stockitems = stockitems.order_by(sortkey)
+
         if 'specialeditions' in request.GET:
             user_message = 'You have selected Special Editions.'
             stockitems = stockitems.filter(is_special_edition=True)

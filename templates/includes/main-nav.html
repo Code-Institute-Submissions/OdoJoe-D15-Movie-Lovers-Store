@@ -5,9 +5,9 @@
                 Movies
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item ">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Genre</a>
+                <a href="{% url 'stockitems' %}?sort=price&direction=asc" class="dropdown-item ">By Price</a>
+                <a href="{% url 'stockitems' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'stockitems' %}?sort=genre&direction=asc" class="dropdown-item ">By Genre</a>
                 <a href="{% url 'stockitems' %}" class="dropdown-item">All Products</a>
             </div>
         </li>
