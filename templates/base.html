@@ -60,7 +60,7 @@
                     <li class="list-inline-item dropdown">
                         <a class="nav-link shop-nav" href="#" id="user-options" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="text-center">
-                                <div><i class="fas fa-user fa-lg"></i></div>
+                                <div class="shop-nav"><i class="fas fa-user fa-lg"></i></div>
                                 <p class="my-0 shop-nav">My Account</p>
                             </div>
                         </a>
@@ -78,10 +78,10 @@
                         </div>
                     </li>
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-d15{% endif %} nav-link" href="">
+                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-d15{% endif %} nav-link  shop-nav" href="">
                             <div class="text-center">
-                                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
-                                <p class="my-0">
+                                <div class="shop-nav"><i class="fas fa-shopping-bag fa-lg"></i></div>
+                                <p class="my-0 shop-nav">
                                     {% if grand_total %}
                                         €{{ grand_total|floatformat:2 }}
                                     {% else %}

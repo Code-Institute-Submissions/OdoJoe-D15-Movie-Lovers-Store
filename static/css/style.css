@@ -133,9 +133,6 @@ body {
     text-decoration: none;
 }
 
-.shop-nav a:hover {
-    border-bottom: 1px solid;
-}
 
 .shop-nav p:hover {
     border-bottom: 1px solid;
@@ -145,5 +142,12 @@ body {
 .shop-nav a {
     color: aquamarine;
     border-bottom: 0px solid;
+    text-decoration: none;
+}
+
+.shop-nav i:hover {
+    color: aquamarine;
+    background-color: aquamarine;
+    border-bottom: 0px;
     text-decoration: none;
 }
