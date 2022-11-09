@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Stockitem, Format
+from .models import Stockitem, Format, Genre
 
 
 def all_stockitems(request):
@@ -10,25 +10,39 @@ def all_stockitems(request):
     """
     stockitems = Stockitem.objects.all()
     query = None
+    genres = None
+    sort = None
+    direction = None
+    actual_sortkey = None
     user_message = ''
+    search_term = None
 
     if request.GET:
+        if 'genre' in request.GET:
+            genres = request.GET['genre'].split(',')
+            stockitems = stockitems.filter(genre__name__in=genres)
+            genres = Genre.objects.filter(name__in=genres)
+            search_term = genres[0]
+
         if 'sort' in request.GET:
             sortkey = request.GET['sort']
             actual_sortkey = sortkey
+            if sortkey == 'genre':
+                sortkey = 'genre__friendly_name'
+                
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
 
             user_message = f'You are sorting by {actual_sortkey} ({direction}).'
-            messages.add_message(request, messages.INFO, user_message)
+            
             stockitems = stockitems.order_by(sortkey)
 
         if 'specialeditions' in request.GET:
             user_message = 'You have selected Special Editions.'
             stockitems = stockitems.filter(is_special_edition=True)
-            messages.add_message(request, messages.INFO, user_message)
+
         if 'format' in request.GET:
             
             uformat = request.GET['format']
@@ -37,7 +51,6 @@ def all_stockitems(request):
             formats = formats.filter(name=uformat)
 
             user_message = 'You have selected to view ' + formats[0].friendly_name + '.'
-            messages.add_message(request, messages.INFO, user_message)
             stockitems = stockitems.filter(format=formats[0].pk)
 
         if 'q' in request.GET:
@@ -48,9 +61,15 @@ def all_stockitems(request):
 
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             stockitems = stockitems.filter(queries)
+            search_term = query
+
+    current_sorting = f'{actual_sortkey}_{direction}'
 
     context = {
         'stockitems': stockitems,
+        'current_sorting': current_sorting,
+        'search_term': search_term,
+        'current_genres': genres,
     }
 
     return render(request, 'products/stockitems.html', context)
