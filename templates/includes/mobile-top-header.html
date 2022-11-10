@@ -41,7 +41,7 @@
     </div>
 </li>
 <li class="list-inline-item bg-d15header">
-    <a class="text-d15 {% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none shop-nav" href="">
+    <a class="text-d15 {% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none shop-nav" href="{% url 'view_bag' %}">
         <div class="text-center text-d15">
             <div class="shop-nav"><i class="fas fa-shopping-bag fa-lg"></i></div>
             <p class="my-0 shop-nav">
