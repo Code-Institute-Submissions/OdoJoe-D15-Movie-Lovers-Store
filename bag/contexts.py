@@ -8,7 +8,10 @@ def bag_contents(request):
     total = 0
     stockitem_count = 0
 
-    delivery = total + Decimal(settings.STANDARD_DELIVERY_FEE)
+    if total >0:
+        delivery = total + Decimal(settings.STANDARD_DELIVERY_FEE)
+    else:
+        delivery = 0
     grand_total = delivery + total
 
     context = {

@@ -163,3 +163,8 @@ body {
 .btt-link {
     cursor: pointer;
 }
+
+.btn-outline-black {
+    color: black !important; /* use important to override link colors for <a> elements, copied from Boutique Ado walkthrough */
+    border: 1px solid aquamarine;
+}
