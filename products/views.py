@@ -86,3 +86,4 @@ def stockitem_detail(request, stockitem_id):
     }
 
     return render(request, 'products/stockitem_detail.html', context)
+
