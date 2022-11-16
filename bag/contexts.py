@@ -12,6 +12,7 @@ def bag_contents(request):
     bag = request.session.get('bag', {})
 
     for item_id, quantity in bag.items():
+        stockitem_count += quantity
         stockitem = get_object_or_404(Stockitem, pk=item_id)
         total += quantity * stockitem.price
         bag_items.append({
