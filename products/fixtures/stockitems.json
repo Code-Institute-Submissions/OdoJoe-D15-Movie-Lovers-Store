@@ -26,7 +26,7 @@
   
         "rating": -1,
   
-        "image": "noimage.png"
+        "image": "https://m.media-amazon.com/images/I/81J5eQdDZmL._AC_SL1500_.jpg"
   
       }
   
@@ -50,7 +50,7 @@
   
         "region": 1,
   
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "In this action-packed sequel to Alien, Sigourney Weaver returns as Ripley, the only survivor from mankind's first encounter with the monstrous Alien. Her account of the Alien and the fate of her crew are received with skepticism - until the mysterious disappearance of colonists on LV-426 leads her to join a team of high-tech colonial marines sent in to investigate. Personally supervised by director James Cameron, this special edition includes scenes eliminated prior to the film's 1986 release which broaden the narrative scope and enrich the emotional impact of the film. Includes the 1986 Theatrical Version and 1991 Special Edition!; ALL-NEW Documentary, The Inspiration And Design Of Aliens, with James Cameron; Audio Commentary by Director James Cameron, Cast and Crew; Introduction by James Cameron (Special Edition Only); Final Theatrical Isolated Score by James Horner; Composer's Original Isolated Score by James Horner; Deleted and Extended Scenes.",
   
         "price": 21.99,
   
@@ -82,7 +82,7 @@
   
         "region": 1,
   
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Stanley Kubrick's dazzling, Academy Award winning achievement is a compelling drama of man vs. machine, a sunning meld of music and motion. Kubrick (who co-wrote the screenplay with Arthur C. Clarke) first visits our prehistoric ape-ancestry past, then leaps millennia (via one of the most mind-blowing jump cuts ever) into colonised space, and ultimately whisks astronaut Bowman (Kier Dullea) into uncharted space, perhaps even immortality. Open the pod doors, HAL. Let an awesome journey unlike any other begin. Commentary by Kier Dullea and Gary Lockwood. Channel Four Documentary 2001: The Making of a Myth. 4 Insightful Featurettes: Standing on the Shoulders of Kubrick: The legacy of 2001. Vision of a future passed: The Prophecy of 2001. 2001: A Space Odyssey- A look behind the future. What is out There? 2001: FX and Early Conceptual Artwork. Look: Stanley Kubrick! Audio-Only Bonus: 1966 Kubrick Interview Conducted by Jeremy Bernstein. Theatrical Trailer.",
   
         "price": 53.99,
   
@@ -114,7 +114,7 @@
   
         "region": 1,
   
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "A tall, handsome preacher his knuckles eerily tattooed with love and hate roams the countryside, spreading the gospel...and leaving a trail of murdered women in his wake. To Reverend Harry Powell (Robert Mitchum), the work of the Lord has more to do with condemning souls than saving them,especially when his own interests are involved. Now his sights are set on $10,000and two little children are the only ones who know where it is. Chill...dren! the preacher croons to the terrified boy and girl hiding in the cold, dark cellar...innocent young lambs who refuse to be led astray. A finely acted, imaginatively directed chiller with brooding power ( Variety ), The Night of the Hunter stars Mitchum in the most daring and critically acclaimed performance of his career. Spellbinding, ominous, and hauntingly suspenseful, this extraordinary film noir classic remains one of the most frightening movies ever made (Pauline Kael).",
   
         "price": 10.99,
   
@@ -146,7 +146,7 @@
   
         "region": 1,
   
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Newscaster Howard Beale has a message for those who package reports of cute puppies, movie premieres and fender benders as hard news: “Im as mad as hell, and Im not going to take this anymore.” Sidney Lumet directs Paddy Chayefskys satire (an Academy Award-winning* screenplay) about the things people do for love…and ratings. Three performers won Oscars. Best Actress Faye Dunaway is the TV exec guarding ratings like a tigress protecting cubs. Best Actor Peter Finch is Beale, whose airwave rants become a phenomenon. And William Holden, Robert Duvall and Best Supporting Actress Beatrice Straight add to the fierce vitality.",
   
         "price": 10.99,
   
@@ -178,7 +178,7 @@
   
         "region": 1,
   
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Tang Lung (Bruce Lee) arrives in Rome to help his cousins' in the restaurant business. They are being pressured to sell their property to the syndicate, who will stop at nothing to get what they want. When Tang arrives he poses a new threat to the syndicate, and they are unable to defeat him. The syndicate boss hires the best Japanese and European martial artists to fight Tang, but he easily finishes them off. The American martial artist Colt (Chuck Norris) is hired and has the ultimate showdown with Tang in Rome's famous Colosseum.",
   
         "price": 10.99,
   
@@ -210,7 +210,7 @@
   
         "region": 1,
   
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "Hotshot lawyer Jackie Lung (Jackie Chan) is hired to defend the owner of a factory which, unbeknownst to him, is the centre of a clandestine narcotics syndicate. He enlists resourceful acquaintances Wong Fei-Hung (Sammo Hung) and Dung Dak-Biu (Yuen Biao) to assist in the case, but loyalties begin to falter when romance blossoms between both sides.",
   
         "price": 29.99,
   
@@ -242,7 +242,7 @@
   
         "region": 1,
   
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "description": "The Far East meets the Old West in this iconic action-packed adventure from the inimitable Sammo Hung. Hung plays a loveable rogue who teams up with an incorruptible Sheriff (Yuen Biao; Project A, Wheels on Meals) to save their home town from certain destruction. Featuring an explosion of brawls, bandits, and bordellos; The Millionaires Express[Foo gwai lip che] is Sammo Hungs loving tribute to classic Western tropes, but also one of his finest pieces of action cinema. An electrifying fast-paced fusion of dynamic martial artistry, death-defying stunts, and physical comedy. Also starring Rosamund Kwan, Richard Ng, and Cynthia Rothrock (plus an abundance of cameos from other Hong Kong cinema legends). The Millionaires Express makes its UK debut on Blu-ray in this definitive edition as part of Eureka Classics.",
   
         "price": 22.99,
   
