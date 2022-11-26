@@ -111,6 +111,7 @@ WSGI_APPLICATION = 'd15_movie_lovers_store.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# use databas_url from heroku if it exists
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
