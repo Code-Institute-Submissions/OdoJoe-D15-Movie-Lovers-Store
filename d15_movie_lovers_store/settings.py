@@ -22,7 +22,9 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY', '')
+#SECRET_KEY = os.environ.get('SECRET_KEY', '')
+
+SECRET_KEY = 'f41--_9-r^cl++)s74e$&5de@7jr(=u&w$qb2x6$v(e!l=*4ol'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
@@ -47,6 +49,7 @@ INSTALLED_APPS = [
     'products',
     'bag',
     'storages',
+    'checkout',
 ]
 
 SITE_ID = 1
@@ -187,7 +190,7 @@ if 'USE_AWS' in os.environ:
     # Override static and media URLs in production
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
-    
+
 
 
 # Default primary key field type
