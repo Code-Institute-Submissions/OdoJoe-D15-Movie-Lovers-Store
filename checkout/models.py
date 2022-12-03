@@ -3,6 +3,7 @@ import uuid
 from django.db import models
 from django.db.models import Sum
 from django.conf import settings
+from decimal import Decimal
 
 from products.models import Stockitem
 
@@ -34,8 +35,9 @@ class Order(models.Model):
         Grand total for all stock items
         selected to purchase
         """
-        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum']
-        self.delivery_cost = self.order_total + settings.STANDARD_DELIVERY_FEE
+        self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
+        
+        self.delivery_cost = Decimal(settings.STANDARD_DELIVERY_FEE)
         self.grand_total = self.order_total + self.delivery_cost
         self.save()
 
@@ -67,4 +69,4 @@ class OrderLineItem(models.Model):
         super().save(*args, **kwargs)
 
     def __str__(self):
-        return f'{self.stockitem.full_name} in order {self.order.order_number}'
+        return f'{self.stockitem.name} in order {self.order.order_number}'
