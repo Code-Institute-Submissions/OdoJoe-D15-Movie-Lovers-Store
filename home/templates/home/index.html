@@ -17,7 +17,11 @@
         <div class="col-7 col-md-6 my-auto">
             <h1 class="display-4 logo-font text-d15">
                 Welcome to the D15 Movie Lovers Store, Irelands best physical media online store.
-                <p class="landpage-note">If you love movies like we do please sign up to our Newsletter to keep informed of our new releases and special deals.</p>
+                {% if user.is_authenticated %}
+                <p class="landpage-note">Why not <a href="{% url 'add_to_newsletter' user.id %}">sign up</a> to our Newsletter to keep informed of our new releases and special deals.</p>
+                {% else %}
+                <p class="landpage-note">If you love movies like we do please register and sign up to our Newsletter to keep informed of our new releases and special deals.</p>
+                {% endif %}
             </h1>
             <div class="my-5">
                 <h4>
