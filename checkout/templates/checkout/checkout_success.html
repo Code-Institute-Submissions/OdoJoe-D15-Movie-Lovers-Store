@@ -61,7 +61,7 @@
                     {% for item in order.lineitems.all %}
                     <div class="row">
                         <div class="col-12 col-md-8 text-md-right">
-                            <p class="small mb-0 text-d15">{{ item.quantity }} @ €{{ item.stockitem.price }} each</p>
+                            <p class="small mb-0 text-d15">{{ item.quantity }} x {{ item.stockitem.name }} @ €{{ item.stockitem.price }} each</p>
                         </div>
                     </div>
                     {% endfor %}

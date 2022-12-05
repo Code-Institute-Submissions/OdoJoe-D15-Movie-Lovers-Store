@@ -41,7 +41,7 @@
                     {% for item in bag_items %}
                         <tr class="text-d15">
                             <td class="p-3 w-25">
-                                {% if stockitem.image %}
+                                {% if item.stockitem.image %}
                                 <img class="img-fluid rounded" src="{{ item.stockitem.image.url }}">
                                 {% else %}
                                 <img class="img-fluid rounded" src="/media/noimage.png" alt="{{ stockitem.name }}">
