@@ -195,3 +195,8 @@ body {
 .landpage-note {
     font-size: large;
 }
+
+.newsletter-form {
+    text-align: top;
+    vertical-align: text-top;
+}

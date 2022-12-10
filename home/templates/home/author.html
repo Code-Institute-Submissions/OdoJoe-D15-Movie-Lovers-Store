@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-7 col-md-6 my-auto">
+            <h4 class="logo-font text-d15">
+                Enter your newsletter details below and hit submit.
+            </h4>
+            <div class="my-5 text-d15">
+                <form method="POST" action="{% url 'send_newsletter' %}">
+                    {% csrf_token %}
+                    <div class="newsletter-form">
+                        Subject:<br><input type="text" name="subject"/><br>
+                    </div>
+                    <div class="newsletter-form">
+                        Content:<br><textarea name="content" rows="10" cols="50"></textarea><br>
+                    </div>
+                    <button class="primaryAction" type="submit">send</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
