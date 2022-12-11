@@ -29,14 +29,12 @@ def all_stockitems(request):
             actual_sortkey = sortkey
             if sortkey == 'genre':
                 sortkey = 'genre__friendly_name'
-                
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
                     sortkey = f'-{sortkey}'
 
             user_message = f'You are sorting by {actual_sortkey} ({direction}).'
-            
             stockitems = stockitems.order_by(sortkey)
 
         if 'specialeditions' in request.GET:
@@ -44,7 +42,6 @@ def all_stockitems(request):
             stockitems = stockitems.filter(is_special_edition=True)
 
         if 'format' in request.GET:
-            
             uformat = request.GET['format']
 
             formats = Format.objects.all()
@@ -86,4 +83,3 @@ def stockitem_detail(request, stockitem_id):
     }
 
     return render(request, 'products/stockitem_detail.html', context)
-

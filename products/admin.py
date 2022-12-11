@@ -3,6 +3,9 @@ from .models import Stockitem, Format, Region, Genre
 
 
 class GenreAdmin(admin.ModelAdmin):
+    """
+    Admin model to administer genre data
+    """
     list_display = (
         'friendly_name',
         'name'
@@ -12,6 +15,9 @@ class GenreAdmin(admin.ModelAdmin):
 
 
 class FormatAdmin(admin.ModelAdmin):
+    """
+    Admin model to administer format data
+    """
     list_display = (
         'friendly_name',
         'name'
@@ -21,6 +27,9 @@ class FormatAdmin(admin.ModelAdmin):
 
 
 class RegionAdmin(admin.ModelAdmin):
+    """
+    Admin model to administer region data
+    """
     list_display = (
         'friendly_name',
         'name'
@@ -30,6 +39,9 @@ class RegionAdmin(admin.ModelAdmin):
 
 
 class StockitemAdmin(admin.ModelAdmin):
+    """
+    Admin model to administer stockitem data
+    """
     list_display = (
         'name',
         'region',
@@ -46,5 +58,3 @@ admin.site.register(Stockitem, StockitemAdmin)
 admin.site.register(Format, FormatAdmin)
 admin.site.register(Region, RegionAdmin)
 admin.site.register(Genre, GenreAdmin)
-
-

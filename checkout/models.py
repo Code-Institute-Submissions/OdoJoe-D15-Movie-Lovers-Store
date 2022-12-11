@@ -9,6 +9,9 @@ from products.models import Stockitem
 
 
 class Order(models.Model):
+    """
+    model to save an order
+    """
     order_number = models.CharField(max_length=32, null=False, editable=False)
     full_name = models.CharField(max_length=50, null=False, blank=False)
     email = models.EmailField(max_length=254, null=False, blank=False)
@@ -38,7 +41,6 @@ class Order(models.Model):
         selected to purchase
         """
         self.order_total = self.lineitems.aggregate(Sum('lineitem_total'))['lineitem_total__sum'] or 0
-        
         self.delivery_cost = Decimal(settings.STANDARD_DELIVERY_FEE)
         self.grand_total = self.order_total + self.delivery_cost
         self.save()

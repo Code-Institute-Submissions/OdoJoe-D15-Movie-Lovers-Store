@@ -33,6 +33,9 @@ def send_newsletter(request):
 
 
 def author_newsletter(request):
+    """
+    render the author page
+    """
     return render(request, 'home/author.html')
 
 

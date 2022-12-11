@@ -2,6 +2,10 @@ from django.db import models
 
 
 class Genre(models.Model):
+    """
+    model specifying the
+    genre of a stockitem
+    """
     name = models.CharField(max_length=150)
     friendly_name = models.CharField(max_length=150)
 
@@ -13,6 +17,10 @@ class Genre(models.Model):
 
 
 class Region(models.Model):
+    """
+    model specifying the
+    region of a stockitem
+    """
     name = models.CharField(max_length=150)
     friendly_name = models.CharField(max_length=150)
 
@@ -24,6 +32,10 @@ class Region(models.Model):
 
 
 class Format(models.Model):
+    """
+    model specifying the
+    format of a stockitem
+    """
     name = models.CharField(max_length=150)
     friendly_name = models.CharField(max_length=150)
 
@@ -35,6 +47,10 @@ class Format(models.Model):
 
 
 class Stockitem(models.Model):
+    """
+    model specifying
+    a stockitem
+    """
     sku = models.CharField(max_length=100)
     name = models.CharField(max_length=150)
     format = models.ForeignKey('Format', null=True, on_delete=models.SET_NULL)
