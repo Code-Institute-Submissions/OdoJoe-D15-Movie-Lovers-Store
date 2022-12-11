@@ -15,23 +15,26 @@ def index(request):
     }
     return render(request, 'home/index.html', context)
 
+
 def send_newsletter(request):
     """
-    return to Newsletter screen once newsletter 
+    return to Newsletter screen once newsletter
     has been submitted
     """
-    
+
     if request.method == 'POST':
         subject = request.POST['subject']
         content = request.POST['content']
         subscribers = Subscriber.objects.all()
         for subscriber in subscribers:
-            send_mail(subject, content, 'newsletter@d15movieloversstore.com', [subscriber.email,], fail_silently=False)
+            send_mail(subject, content, 'newsletter@d15movieloversstore.com', [subscriber.email, ], fail_silently=False)
     messages.success(request, f'sent newsletter to {len(subscribers)} users.')
     return render(request, 'home/author.html')
 
+
 def author_newsletter(request):
     return render(request, 'home/author.html')
+
 
 def add_to_newsletter(request, user_id):
     """
