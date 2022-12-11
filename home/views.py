@@ -3,6 +3,14 @@ from django.contrib.auth.models import User
 from .models import Subscriber
 from django.core.mail import send_mail
 from django.contrib import messages
+from django.template import RequestContext
+
+
+def handler404(request, *args, **argv):
+    response = render('home/404.html', {},
+                                  context_instance=RequestContext(request))
+    response.status_code = 404
+    return response
 
 
 def index(request):

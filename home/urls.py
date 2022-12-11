@@ -7,3 +7,6 @@ urlpatterns = [
     path('newsletter/', views.author_newsletter, name='author_newsletter'),
     path('send/', views.send_newsletter, name='send_newsletter'),
 ]
+
+handler404 = 'home.views.handler404'
+
