@@ -20,7 +20,8 @@ body {
 }
 
 .logo-font {
-    font-weight: bold;
+    font-weight: 700;
+    font-size: larger;
     color: aquamarine;
 }
 
