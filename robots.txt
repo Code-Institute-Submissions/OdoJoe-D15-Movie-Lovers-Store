@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Disallow: /checkout/
+Disallow: /admin/
+Sitemap: https://d15-movie-lovers-store.herokuapp.com/sitemap.xml
