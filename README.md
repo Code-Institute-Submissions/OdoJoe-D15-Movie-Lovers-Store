@@ -30,19 +30,37 @@ According to Hootsuite.com (Link: https://blog.hootsuite.com/facebook-statistics
 - Facebook marketplace ads reach 562 million people.
 - 79% of monthly users are active daily and finally Facebook is the favourite social platform of the 35-44 demographic.
 
-It is clear from the stats above that using Facebook to promote the D15 Movie Lovers Store is essential. However Youtube and Instagram will also be implemented in the future. According to Wallaroomedia (link:https://wallaroomedia.com/blog/social-media/tiktok-statistics/) 80% of US Tik Tok Users are aged between 18-34. The age range and the general use of Tik Tok as a performance platform I dont see how Tik Tok could help the promotion of the D15 Movie Lovers Store at this time. Efforts should be spent on promotion through Facebook.
+It is clear from the stats above that using Facebook to promote the D15 Movie Lovers Store is essential. However Youtube and Instagram will also be implemented in the future. According to Wallaroomedia (link: https://wallaroomedia.com/blog/social-media/tiktok-statistics/) 80% of US Tik Tok Users are aged between 18-34. The age range and the general use of Tik Tok as a performance platform I dont see how Tik Tok could help the promotion of the D15 Movie Lovers Store at this time. Efforts should be spent on promotion through Facebook.
 
-## Online Content and User engagement
+## Online Content and User engagement:
 From my own experiences as a movie collector and avid Physical Media champion I find a lot of my information comes from Facebook groups, Youtube creators and reviewers and Instagram influencers regularly creating content around upcoming releases, rumoured releases and unboxing and review based content. It is my intention to start a channel with Youtube and a page with Instagram to compliment the Facebook page at a future date. Online creators have been instrumental in my own sourcing of Blu Ray, 4k UHD and special editions of certain Movies and I believe I can also engage with customers, Club Members and a wider untapped audience through such content.
 
-## Sales and Discounts
+## Sales and Discounts:
+The business will run Sales over holiday periods and intermittent Club Member discount campaigns throughout the year. However the Offers section of the website is currently blank and will be updated once an actual offer campaign is devised.
 
+## Business Goals and strategy:
+The business goal is to first and foremost sell our product, for profit to our target demographic. A secondary goal is to add memebers to the D15 Movie Lovers Club and to grow the business customer base in Ireland using the Club and Newsletter. The marketing strategy for the site will be Search Engine Optimisation, email marketing through the Newsletter and social media marketing with the implementation of a Facebook page. I intend to grow the Facebook page and regularly post updates on new releases, low stock items, general movie 'banter' etc.
 
+The beauty of using basic SEO, the Facebook page and the Newsletter for marketing is its free. I dont intend to spend on advertising until I know I have used this strategy as far as it will take the platform.
 
+##Email Marketing
+I set up a custom Newsletter service. Once the User registers with t he site they can then sign up for the Newsletter.
 
+## Facebook page:
+![facebook shot 1](media/fb_shot_1.png)
+![facebook shot 2](media/fb_shot_2.png)
+![facebook shot 3](media/fb_shot_3.png)
 
+## Privacy Policy:
+https://www.privacypolicygenerator.info was used to generate a standard Privacy Policy.
 
+Please see Privacy Policy here:
+https://www.privacypolicygenerator.info/live.php?token=rvpuphBIoDGo13y658txPwQQ9RnYARQQ
 
+## Search Engine Optimization:
+The site was built with Key Words in Mind. Throughput tghe site you will note th euse of keywords directly related to Movies. A basic list of keywords I include below for reference:
+
+![seo keywords](media/keywords_seo.png)
 
 
 # Strategy
@@ -51,7 +69,7 @@ From my own experiences as a movie collector and avid Physical Media champion I 
 * The Agile framework was applied to this project using Github views and issues tab. I created a template and applied the template to each user story.
 * I collected the user stories by interviewing a family member as a mock user.
 * I assembled the user stories onto a kanban board in Github under the headings 'To Do', 'In Progress' and 'Done'. Using each column effectively kept the project moving toward completion. Breaking the work up into iterations helped to reduce the enormity of the project to manageable work sessions.
-* Learning from my Portfolio Project 4 fedback I also implemented a tag system to highlight the requirments of each work item. Adding to this a commented update on each work item while implementing an imagined feedback from a Project Manager to mimic a real world setting.
+* Learning from my Portfolio Project 4 feedback I also implemented a tag system to highlight the requirments of each work item. Adding to this a commented update on each work item while implementing an imagined feedback from a Project Manager to mimic a real world setting.
 * Not all user stories were effectively completed however I have retained all non completed work items as a baseline for improvement and adding features in the future.
 
 ## <u>Project Goal</u>
