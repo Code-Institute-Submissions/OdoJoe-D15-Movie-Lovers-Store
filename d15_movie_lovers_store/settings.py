@@ -27,7 +27,7 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = 'f41--_9-r^cl++)s74e$&5de@7jr(=u&w$qb2x6$v(e!l=*4ol'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False  # 'DEVELOPMENT' in os.environ
+DEBUG = True  # 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['d15-movie-lovers-store.herokuapp.com', 'localhost']
 
