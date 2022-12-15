@@ -162,75 +162,75 @@ The main colour scheme used is:
 
 * Landing page desktop:
 
-![Landing page desktop](media/landing_page_desktop.png)
+![Landing page desktop](assets/wireframes/landing_page_desktop.png)
 
 * All Products page desktop:
 
-![All Products page desktop](media/all_products_desktop.png)
+![All Products page desktop](assets/wireframes/all_products_desktop.png)
 
 * Individual Product page desktop:
 
-![Individual Product page desktop](media/individual_product_desktop.png)
+![Individual Product page desktop](assets/wireframes/individual_product_desktop.png)
 
 * Secure Checkout page desktop:
 
-![Secure Checkout page desktop](media/secure_checkout_desktop.png)
+![Secure Checkout page desktop](assets/wireframes/secure_checkout_desktop.png)
 
 * Checkout page desktop:
 
-![Checkout page desktop](media/checkout_desktop.png)
+![Checkout page desktop](assets/wireframes/checkout_desktop.png)
 
 * Payment Complete page desktop:
 
-![Payment Complete page desktop](media/payment_complete_desktop.png)
+![Payment Complete page desktop](assets/wireframes/payment_complete_desktop.png)
 
 * Landing page tablet:
 
-![Landing page tablet](media/landing_page_tablet.png)
+![Landing page tablet](assets/wireframes/landing_page_tablet.png)
 
 * All Products page tablet:
 
-![All Products page tablet](media/all_products_tablet.png)
+![All Products page tablet](assets/wireframes/all_products_tablet.png)
 
 * Individual Product page tablet:
 
-![Individual Product page tablet](media/individual_product_tablet.png)
+![Individual Product page tablet](assets/wireframes/individual_product_tablet.png)
 
 * Secure checkout page tablet:
 
-![Secure checkout page tablet](media/secure_checkout_tablet.png)
+![Secure checkout page tablet](assets/wireframes/secure_checkout_tablet.png)
 
 * Checkout page tablet:
 
-![Checkout page tablet](media/checkout_tablet.png)
+![Checkout page tablet](assets/wireframes/checkout_tablet.png)
 
 * Payment complete page tablet:
 
-![Payment complete page tablet](media/payment_complete_tablet.png)
+![Payment complete page tablet](assets/wireframes/payment_complete_tablet.png)
 
 * Landing page mobile:
 
-![Landing page mobile](media/landing_page_mobile.png)
+![Landing page mobile](assets/wireframes/landing_page_mobile.png)
 
 * All product page mobile:
 
-![All product page mobile](media/all_products_mobile.png)
+![All product page mobile](assets/wireframes/all_products_mobile.png)
 
 * Individual product page mobile:
 
-![Individual product page mobile](media/individual_product_mobile.png)
+![Individual product page mobile](assets/wireframes/individual_product_mobile.png)
 
 * Secure checkout page mobile:
 
-![Secure checkout page mobile](media/secure_checkout_mobile.png)
+![Secure checkout page mobile](assets/wireframes/secure_checkout_mobile.png)
 
 * Checkout page mobile:
 
-![Checkout page mobile](media/checkout_mobile.png)
+![Checkout page mobile](assets/wireframes/checkout_mobile.png)
 
 * Payment complete page mobile:
 
-![Payment complete page mobile](media/payment_complete_mobile.png)
+![Payment complete page mobile](assets/wireframes/payment_complete_mobile.png)
 
 ## <u>Differences between the Wireframes and finished blog</u>
 
