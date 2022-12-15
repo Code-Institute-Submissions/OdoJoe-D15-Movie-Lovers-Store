@@ -89,8 +89,8 @@ I created a robots.txt file to ensure search engines dont crawl through sensitiv
 * I want Users to register, log in and log out in a simple manner while being able to read stock item descriptions with ease facilitating regular purchases. I also added a review function allowing users to add, edit and delete reviews of the Stock Items. This helps to create a bigger sense of belonging with the buisness users and club users.
 * Implement full CRUD functionality in allowing the user to write, edit and delete a review.
 
-## <u>Models</u>
-* I used a number of custom models in this project, listed below for quick reference and included in a basic schema:
+## <u>Data Models</u>
+* I have listed the models used below for quick reference and included in a basic schema:
 1. <u>In the checkout app:</u>
 - class Order(models.Model)
 - class OrderLineItem(models.Model)
@@ -103,7 +103,24 @@ I created a robots.txt file to ensure search engines dont crawl through sensitiv
 - class Stockitem(models.Model)
 - class Review(models.Model)
 
-![Models screenshot](documentation/model_schema/models-pp4.png)
+* Full Models Schema:
+
+![Models screenshot](assets/models/models_schema_final.png)
+
+* Individual Models:
+
+![Models screenshot](assets/models/genre_region_format_schema.png)
+
+![Models screenshot](assets/models/order_schema.png)
+
+![Models screenshot](assets/models/orderlineitem_schema.png)
+
+![Models screenshot](assets/models/review_schema.png)
+
+![Models screenshot](assets/models/stockitem_schema.png)
+
+![Models screenshot](assets/models/subscriber_schema.png)
+
 
 ## <u>User Stories</u>
 ## Completed User Stories:
@@ -157,8 +174,10 @@ The main colour scheme used is:
 - Header colour: #357367
 - Text colour: Aquamarine
 
-## <u>Wireframes</u>
+## Imagery
+As the site is a movie physical media store I have included 11 films as example products. I chose films that are a mixture of well known classics and some rarer titles to appeal to the collector sensibility
 
+## <u>Wireframes</u>
 
 * Landing page desktop:
 
@@ -234,15 +253,8 @@ The main colour scheme used is:
 
 ## <u>Differences between the Wireframes and finished blog</u>
 
-* The poll option and vote option were not completed due to time constraints and have been noted for future implementation.
-
-* The login and register pages were simplified. Instead of encasing the forms in a container I left them free on the page. The view is elegant and simple.
-
-* The club logo as seen on the About page is not yet designed. This has been noted for future implementation.
-
-* I intended a smaller blog-appropriate image would display with the full blog post however a cropped portion now displays. This has been noted for a future fix.
-
-* I planned to display a blog-appropriate image on the mobile screen. However the responsive design works well in its current state sans image.
+* You will note from the mobile Wireframe presentation that the Search, Account and Bag icons should be aligned. Unfortunately as time was becoming more of an issue I sacrificed fixing the Search, Account and Bag icons in the actual site. Currently they are slightly un-aligned.
+* Generally speaking the site matches the Wireframes with some very small variances.
 
 
 
