@@ -64,3 +64,13 @@ class Stockitem(models.Model):
 
     def __str__(self):
         return self.name
+
+
+class Review(models.Model):
+    """
+    Model to store user reviews
+    """
+    username = models.CharField(max_length=150)
+    stockitem = models.ForeignKey('Stockitem', null=True, on_delete=models.SET_NULL)
+    review_text = models.TextField()
+    date = models.DateTimeField(auto_now_add=True)

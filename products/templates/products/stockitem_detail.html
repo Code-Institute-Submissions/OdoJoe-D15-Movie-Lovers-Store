@@ -25,6 +25,31 @@
                         </a>
                     {% endif %}
                 </div>
+                {% if user.is_authenticated %}
+                <h1>Add your review:</h1>
+                <p>
+                    <form method="POST" action="{% url 'add_review' %}">
+                        {% csrf_token %}
+                        <input type="hidden" name="stockitem_id" value="{{ stockitem.id }}"/>
+                        <input type="hidden" name="username" value="{{ user.username }}"/>
+                        <div class="newsletter-form">
+                            Review:<br><textarea name="review" rows="10" cols="50"></textarea><br>
+                        </div>
+                        <button class="primaryAction" type="submit">send</button>
+                      </form>
+                </p>
+                {% else %}
+                <h1>Please login to add a review</h1>
+                {% endif %}
+                <hr>
+                {% for review in reviews %}
+                <p>Comment by {{ review.username }} on {{ review.date }}</p>
+                <p>{{ review.review_text }}</p>
+                {% if user.is_authenticated %}
+                <p>{% if review.username == user.username %} <a href="{% url 'show_review' review.id %}">Edit</a> <a href="{% url 'delete_review' review.id %}">Delete</a>{% endif %}</p>
+                {% endif %}
+                <hr>
+                {% endfor %}
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="product-details-container mb-5 mt-md-5">

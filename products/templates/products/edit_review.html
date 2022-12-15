@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+                
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-7 col-md-6 my-auto text-d15">
+            <h1>Edit your review:</h1>
+            <p>
+                <form method="POST" action="{% url 'edit_review' %}">
+                    {% csrf_token %}
+                    <input type="hidden" name="stockitem_id" value="{{ review.stockitem.id }}"/>
+                    <input type="hidden" name="review_id" value="{{ review.id }}"/>
+                    <input type="hidden" name="username" value="{{ user.username }}"/>
+                    <div class="newsletter-form">
+                        Review:<br><textarea name="review" rows="10" cols="50">{{ review.review_text }}</textarea><br>
+                    </div>
+                    <button class="primaryAction" type="submit">send</button>
+                  </form>
+            </p>
+        </div>
+    </div>
+</div>
+{% endblock %}

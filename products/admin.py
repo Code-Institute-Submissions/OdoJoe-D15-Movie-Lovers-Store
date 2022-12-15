@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import Stockitem, Format, Region, Genre
+from .models import Stockitem, Format, Region, Genre, Review
 
 
 class GenreAdmin(admin.ModelAdmin):
@@ -53,8 +53,20 @@ class StockitemAdmin(admin.ModelAdmin):
 
     ordering = ('name',)
 
+class ReviewAdmin(admin.ModelAdmin):
+    """
+    Admin model to administer review data
+    """
+    list_display = (
+        'stockitem',
+        'username'
+    )
+
+    ordering = ('pk',)
+
 
 admin.site.register(Stockitem, StockitemAdmin)
 admin.site.register(Format, FormatAdmin)
 admin.site.register(Region, RegionAdmin)
 admin.site.register(Genre, GenreAdmin)
+admin.site.register(Review, ReviewAdmin)
