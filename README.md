@@ -260,13 +260,31 @@ As the site is a movie physical media store I have included 11 films as example 
 
 ## <u>Features</u>
 
-* Each navigation button on the Nav Bar highlights when hovered on
+* Nav Bar, built using bootstrap and visible across the site
 
-![nav bar highlight](documentation/feature_screenshots/underline-hover-on-nav-options.png)
+* My Account and Bag buttons on the Nav Bar highlights when hovered on
 
-* The selected page will maintain the highlighted bar to inform the user
+* Every button on the site highlights when hovered on:
 
-![nav bar selection remains underlined](documentation/feature_screenshots/nav-selection-underline-to-display-current-page.png)
+* Drop down list generates when user clicks on the My Account button:
+
+* If there is nothing in the back and the bag button is clickeed the User is presented with a bag empty page:
+
+* When the Movies and Blu Ray buttons are clicked on the nav bar a drop down menu presents to allow the user to access the type of product they're looking for with ease. If the user selects Price the products will be arranged by low to high, if the user selects Genre the Genres will be arranged alphabetically and if the User selects all products, all products will be shown. However I must note that due to timing the rating system was not implemented in development, therefore when a user clicks on this option it will generate in the same way the All Products option displays. Also to nte the Special Offers section has not yet been implemented, this has been noted for future development:
+
+* Search bar in the header is fully functional:
+
+* The Landing page introduces the user to the site and asks the user to register:
+
+* Once the User has registered, the message changes to ask the user to sign up for the Newsletter:
+
+* The user can click onmm either the Movie image aor the movie title to generate the single product page:
+
+* When a User adds a product to the bag a checkout summary displays in the top right of the page:
+
+
+
+
 
 * Navbar reduces to burger button to accomodate smaller screen sizes
 
