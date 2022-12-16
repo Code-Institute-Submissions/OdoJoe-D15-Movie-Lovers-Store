@@ -262,15 +262,33 @@ As the site is a movie physical media store I have included 11 films as example 
 
 * Nav Bar, built using bootstrap and visible across the site
 
+![Nav Bar](assets/features/nav_bar.png)
+
 * My Account and Bag buttons on the Nav Bar highlights when hovered on
+
+![my account and bag hover](assets/features/my_account_highlight.png)
+
+![my account and bag hover](assets/features/bag_highlight.png)
 
 * Every button on the site highlights when hovered on:
 
+![button idle](assets/features/keep_shopping_button_idle.png)
+
+![button hover](assets/features/keep_shopping_button_hover.png)
+
 * Drop down list generates when user clicks on the My Account button:
 
-* If there is nothing in the back and the bag button is clickeed the User is presented with a bag empty page:
+![my account dropdown](assets/features/my_account_dropdown_list.png)
+
+* If there is nothing in the bag and the bag button is clicked the User is presented with a bag empty page:
+
+![empty bag click](assets/features/bag_empty_page.png)
 
 * When the Movies and Blu Ray buttons are clicked on the nav bar a drop down menu presents to allow the user to access the type of product they're looking for with ease. If the user selects Price the products will be arranged by low to high, if the user selects Genre the Genres will be arranged alphabetically and if the User selects all products, all products will be shown. However I must note that due to timing the rating system was not implemented in development, therefore when a user clicks on this option it will generate in the same way the All Products option displays. Also to nte the Special Offers section has not yet been implemented, this has been noted for future development:
+
+![movie button dropdown](assets/features/movies_dropdown.png)
+
+![Blu Ray button dropdown](assets/features/blu_ray_dropdown.png)
 
 * Search bar in the header is fully functional:
 
@@ -282,9 +300,31 @@ As the site is a movie physical media store I have included 11 films as example 
 
 * When a User adds a product to the bag a checkout summary displays in the top right of the page:
 
+* A dropdown box for sorting options (as previously noted the rating option is not functional at this time):
+
+* A user can add, edit and delete review which satisfies CRUD:
+
+* A functional quantity update button added to checkut page:
+
+* Order summary in the checkout page:
+
+* A message displays if the user has not entered a correct email:
+
+* A message displays on successful checkout:
+
+* A full order summary displays once the checkout is complete:
+
+* A custom 404 page was added:
 
 
 
+
+
+
+
+
+## Bugs
+* Review does not exist
 
 * Navbar reduces to burger button to accomodate smaller screen sizes
 
