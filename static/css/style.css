@@ -423,6 +423,5 @@ input[name='q']::placeholder {
 }
 
 .newsletter-form {
-    text-align: top;
     vertical-align: text-top;
 }

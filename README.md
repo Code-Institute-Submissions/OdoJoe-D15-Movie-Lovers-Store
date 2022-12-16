@@ -6,9 +6,10 @@ This is the eCommerce website of the D15 Movie Lovers Store. A store front speci
 
 
 
+
 # View live site here: https://d15-movie-lovers-store.herokuapp.com/
 
-
+# Test Card for transactions: 4242 4242 4242 4242 Date: 04 24 CVC: 242 ZIP: 42424
 
 
 # Marketing Strategy
@@ -270,6 +271,12 @@ As the site is a movie physical media store I have included 11 films as example 
 ![Nav Bar](assets/features/nav_bar.png)
 
 
+* Sign up form feature:
+
+
+![sign up form feature](assets/features/signup_form_feature.png)
+
+
 * My Account and Bag buttons on the Nav Bar highlights when hovered on
 
 
@@ -436,102 +443,152 @@ As the site is a movie physical media store I have included 11 films as example 
 ![django admin panel](assets/features/django_admin_panel_base_page.png)
 
 
-* New user sign up with email confirmation. I registered a new user using https://10minutemail.net/ to show how the email verification works once the user has registered:
+* New user sign up with email confirmation. I registered a new user using https://10minutemail.net/ to show how the email verification works once the user has registered, screenshots showing the process below:
 
+
+![Verify Email Prompt](assets/features/verify_email_prompt.png)
+
+
+![Verify Email Success](assets/features/verify_email_success.png)
+
+
+![actual verify email inbox](assets/features/actual_verify_email.png)
+
+
+![confirm email address](assets/features/confirm_email_page.png)
+
+
+![actual verify email inbox](assets/features/confirm_email_message_popup.png)
 
 
 
 * Newsletter functionality. As the superuser I can write up a newsletter and send it to the subscribers. The send Newsletter option only generates in the superuser profile drop down list as per example included above. To show the newsletter functionality actually working I registered a new user using https://10minutemail.net/ to have an active mailbox available to show how the user would recieve the newsletter. Screenshots of the Newsletter functionality included below:
 
+![Newsletter content](assets/features/newsletter_content.png)
 
+
+![Newsletter message popup](assets/features/newsletter_message_popup.png)
+
+
+![newsletter email recieved](assets/features/newsletter_recieved.png)
+
+
+![news letter email](assets/features/news_letter_email.png)
 
 
 
 * When the user clicks 'Shop Now' on the landing page, they are presented with all products. They can then sort and search as they need as per feature entries above.
 
 
+* Stripe was implemented as the payments system. The test card used was: 4242 4242 4242 4242 Date: 04 24 CVC: 242 ZIP: 42424. I include a screenshot of recorded purchases below:
+
+
+![stripe payment records](assets/features/stripe_payment_records.png)
+
+
+## <u>Features Left to Implement</u>
+
+* User profiles. Implementing a User Profile would make the user experience more detailed by giving the user access to previous purchases for their own reference. Extra functionality like a points system, in which users will earn points with each purchase to use toward future purchases to reduce the price, could be incorporated into this.
+
+* Special Offers. The special offer page is currently not coded. This was a timing issue and I plan to add a robust special offer section to the site in the future.
+
+* Ratings. The rating system is also not implemented despite showing on the product images. I would like to incorporate the rating system to work along side the user review section in future development.
+
+* I intended to add a 'Notify me when back in stock' function to the site. I planned to include a product that was noted as sold out. When a user would click the 'Notify me when back in stock' button it would generate a note on the profile in the admin panel and send them an email confirming their selection.
+
+* Stock availability. Adding a stock counter to each stock item would help to inform users of low stock on items. This would be particularly pertinent to special editions aor low stock run items. This functionality would also help to service collectors and their more demanding approach to obtaining particular items.
+
+* As this store is intended to be merged with the D15 Movie Lovers Club, the D15 Movie Lovers Quiz and the D15 Movie Lovers Blog, it was my intention to add the links back to these delpoyed sites as well as adding a link to the D15 Movie Lovers Store facebook page. This shoulod be a relatively easy next step for future development. However as the scope of the development was bearing down toward the deadline I chose to add this work item to future development.
+
+* I also plan to develop a club logo and replace the rudimentary D15 Movie Lovers heading on each of the PP1, PP2, PP4 and PP5 projects.
+
+* The product descriptions accompanying each product was copied from Amazon. I would prefer to take the time to write up my own product descriptions for each stock item.
+
+
+## <u>Testing</u>
+
+I used the W3c Markup validator, the W3C CSS Validator and the PyLinter built into the terminal.
+
+# W3C Markup validator results:
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com:
+
+![W3c Markup Results Landing Page](assets/validator_results/screencapture-validator-w3-org-nu-2022-12-16-19_47_31.png)
 
 
 
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/products/:
+
+![W3c Markup Results Products Page](assets/validator_results/validator-httpsd15-movie-lovers-store.herokuapp.comproducts.png)
 
 
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/products/10:
+
+![W3c Markup Results Single Product Page](assets/validator_results/validator-single-product-screen.png)
+
+
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/newsletter/:
+
+![W3c Markup Results Newsletter](assets/validator_results/validator-newsletter-screen.png)
+
+
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/bag/:
+
+![W3c Markup Results Bag](assets/validator_results/validator-bag-screen.png)
+
+
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/checkout/:
+
+![W3c Markup Results Checkout](assets/validator_results/validator-checkout-screen.png)
+
+
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/checkout/checkout_success/:
+
+![W3c Markup Results Checkout Success](assets/validator_results/validator-checkout-success.png)
+
+
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/accounts/logout/:
+
+![W3c Markup Results Checkout Success](assets/validator_results/validator-logout-screen.png)
+
+
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/accounts/login/:
+
+![W3c Markup Results login](assets/validator_results/validator-login-screen.png)
+
+
+
+* W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/accounts/signup/:
+
+![W3c Markup Results signup](assets/validator_results/validator-signup-screen.png)
+
+
+* You will note that the validation results for every screen above contain the same errors and warnings. As the code the errors relate to was used from the Boutique Ado walkthrough project I assume they are bootstrap issues. As the warnings do not interfer with functionality I left the code as is to maintain a functioning site. There were other incidental errors noted on my custom code however I fixed those errors as part of testing.
+
+
+# W3C CSS validator results:
 
 
 
 
 ## Bugs
-* Review does not exist
 
-* Navbar reduces to burger button to accomodate smaller screen sizes
-
-![nav bar burger](documentation/feature_screenshots/burger-responsive.png)
-
-* Footer in place with links to social media
-
-![footer and social links](documentation/feature_screenshots/s-media-links.png)
-
-* A total of 4 Blog Posts will be shown before pagination moves further Blog Posts to a new page
-
-![pagination](documentation/feature_screenshots/pagination-option.png)
-
-* Once the comment has been submitted the User also has the option to edit the comment or delete the comment
-
-![nav bar highlight](documentation/feature_screenshots/edit-delete-option.png)
-
-* The time of post and the number of likes wil display under each post
-
-![time of post and number of likes](documentation/feature_screenshots/time-of-post-like-count.png)
-
-* The user log in will be displayed in the top right of the page until they log out
-
-![user log in display](documentation/feature_screenshots/user-login-display.png)
-
-* A notification will display showing users they have logged in or logged out
-
-![log in, log out display](documentation/feature_screenshots/sign-in-notification.png)
-![log in, log out display](documentation/feature_screenshots/sign-out-notification.png)
-
-* A user friendly sign in form was used to make the user experience when signing in as simple as possible
-
-![simple sign in form](documentation/feature_screenshots/sign-in.png)
-
-* A user friendly registration form was used to make the user experience when registering as simple as possible
-
-![simple registration form](documentation/feature_screenshots/registration-form.png)
-
-* The author of the post will be displayed on the post itself
-
-![post author displayed on post](documentation/feature_screenshots/post-author.png)
-
-* The logout option displays for the user once they are successfully logged in
-
-![log out option is displayed once a user logs in](documentation/feature_screenshots/logout-option-when-logged-in.png)
+* If the user has a chrome download bar (the bar that contains your downloaded item) at the bottom of the desktop screen it will push some text upwards on the signup and login pages.
 
 
 
 
 
-## <u>Future Features</u>
 
-* As previously noted the original scope of the project included a Polling option to allow users to poll/vote on next months director focus and to vote on the current director's best film. This option will bring more interactivity to the user base increasing engagement and fostering an atmosphere of unity among the club members. I planned to write two simple poll option boxes to the right of the Blog posts on the Home Page. The top box would contain a list of 4 potential directors to vote on for the upcoming director focus in which users will click the director's name and the count for that director would increase by that vote. The second box, placed underneath the first, will contain a list of the current director's movies allowing users to vote on their favourite film and that count would increase by one. At the end of each month a follow up blog would be created to discuss the polling/vote results and hopefully garner engagement among the members in the comments.
 
-* The eventual goal for this project is to merge it with my portfolio project 1 and portfolio project 2 and create a viable club site with interactivity to promote engagement through the D15 Movie Lovers Quiz(PP2) and through the Blog posts, comments and polling from this project.
 
-* I also plan to develop a club logo and replace the rudimentary D15 Movie Lovers heading on each of the PP1, PP2 and PP4 projects.
 
-* Future ambitions include adding a link to a physical media store in which users can purchase Blu Ray, DVD or 4k UHD blu Rays of their favourite movies, potentially discounting using the club profile. Also an option to add soundtracks, T-Shirts and other collectible, movie focused memorabilia.
-
-* I plan to have the comment edits return the user to the original comment instead of back to the home page.
-
-* I want to make the blog posts accessible when the user clicks the movie poster aswell as the blog title.
-
-* The only blog entry to contain an original blog post written by me is the blog entry titled 'Why Jaws the Revenge is better than you think'. The other Blog entries contain copy and pasted Wikipedia entries used solely due to time constraints. I will write personal blog entries for these posts that touch on my own feelings about the individual subjects which will generate talking points for the club members in the comments section. However, should you have the time to read the Jaws the Revenge blog, I hope you give it a rewatch.
-
-* The about page will be styled more appropriately and will include a club picture/logo. As the page stands now was simply due to time constraints.
-
-* The empty space to the right of the home page will be used to display the voting options as previously noted
-
-* My Profile
 
 
 
