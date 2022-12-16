@@ -436,7 +436,14 @@ As the site is a movie physical media store I have included 11 films as example 
 ![django admin panel](assets/features/django_admin_panel_base_page.png)
 
 
-* Newsletter functionality. As the superuser I can write up a newsletter and send it to the subscribers. The send Newsletter option only generates in the superuser profile drop down list as per example included above. Screenshots of the Newsletter functionality included below, which includes a new user email generated from https://10minutemail.net/:
+* New user sign up with email confirmation. I registered a new user using https://10minutemail.net/ to show how the email verification works once the user has registered:
+
+
+
+
+* Newsletter functionality. As the superuser I can write up a newsletter and send it to the subscribers. The send Newsletter option only generates in the superuser profile drop down list as per example included above. To show the newsletter functionality actually working I registered a new user using https://10minutemail.net/ to have an active mailbox available to show how the user would recieve the newsletter. Screenshots of the Newsletter functionality included below:
+
+
 
 
 
