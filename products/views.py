@@ -102,7 +102,7 @@ def add_review(request):
         review.username = username
         review.save()
         messages.success(request, 'Review Created')
-    
+
     return stockitem_detail(request, stockitem_id)
 
 
@@ -120,7 +120,7 @@ def delete_review(request, review_id):
         messages.warning(request, 'review does not exist')
         return all_stockitems(request)
 
-    
+
 def show_review(request, review_id):
     """
     view to show  page to edit reviews

@@ -507,72 +507,109 @@ As the site is a movie physical media store I have included 11 films as example 
 
 ## <u>Testing</u>
 
-I used the W3c Markup validator, the W3C CSS Validator and the PyLinter built into the terminal.
+I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built into the terminal.
 
 # W3C Markup validator results:
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com:
 
-![W3c Markup Results Landing Page](assets/validator_results/screencapture-validator-w3-org-nu-2022-12-16-19_47_31.png)
+![W3C Markup Results Landing Page](assets/validator_results/screencapture-validator-w3-org-nu-2022-12-16-19_47_31.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/products/:
 
-![W3c Markup Results Products Page](assets/validator_results/validator-httpsd15-movie-lovers-store.herokuapp.comproducts.png)
+![W3C Markup Results Products Page](assets/validator_results/validator-httpsd15-movie-lovers-store.herokuapp.comproducts.png)
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/products/10:
 
-![W3c Markup Results Single Product Page](assets/validator_results/validator-single-product-screen.png)
+![W3C Markup Results Single Product Page](assets/validator_results/validator-single-product-screen.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/newsletter/:
 
-![W3c Markup Results Newsletter](assets/validator_results/validator-newsletter-screen.png)
+![W3C Markup Results Newsletter](assets/validator_results/validator-newsletter-screen.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/bag/:
 
-![W3c Markup Results Bag](assets/validator_results/validator-bag-screen.png)
+![W3C Markup Results Bag](assets/validator_results/validator-bag-screen.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/checkout/:
 
-![W3c Markup Results Checkout](assets/validator_results/validator-checkout-screen.png)
+![W3C Markup Results Checkout](assets/validator_results/validator-checkout-screen.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/checkout/checkout_success/:
 
-![W3c Markup Results Checkout Success](assets/validator_results/validator-checkout-success.png)
+![W3C Markup Results Checkout Success](assets/validator_results/validator-checkout-success.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/accounts/logout/:
 
-![W3c Markup Results Checkout Success](assets/validator_results/validator-logout-screen.png)
+![W3C Markup Results Checkout Success](assets/validator_results/validator-logout-screen.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/accounts/login/:
 
-![W3c Markup Results login](assets/validator_results/validator-login-screen.png)
+![W3C Markup Results login](assets/validator_results/validator-login-screen.png)
 
 
 
 * W3C Markup results for https://d15-movie-lovers-store.herokuapp.com/accounts/signup/:
 
-![W3c Markup Results signup](assets/validator_results/validator-signup-screen.png)
+![W3C Markup Results signup](assets/validator_results/validator-signup-screen.png)
 
 
 * You will note that the validation results for every screen above contain the same errors and warnings. As the code the errors relate to was used from the Boutique Ado walkthrough project I assume they are bootstrap issues. As the warnings do not interfer with functionality I left the code as is to maintain a functioning site. There were other incidental errors noted on my custom code however I fixed those errors as part of testing.
 
 
 # W3C CSS validator results:
+
+![CSS Validation Results](assets/validator_results/css_validation.png)
+
+
+
+# Pylint validator results:
+
+* views.py:
+
+![views.py bag](assets/validator_results/views.py_bag.png)
+
+![views.py products](assets/validator_results/views.py_products.png)
+
+![views.py home](assets/validator_results/views.py_home.png)
+
+![views.py checkout](assets/validator_results/views.py_checkout.png)
+
+
+* models.py:
+
+![models.py checkout](assets/validator_results/models.py_checkout.png)
+
+![models.py home](assets/validator_results/models.py_home.png)
+
+![models.py products](assets/validator_results/models.py_products.png)
+
+* I note there are some 'line to long' errors within the pylint results. I believe these errors are not a big problem and at risk of breaking code I left them as they were.
+
+
+# lighthouse test:
+
+* Lighthouse test desktop:
+![lighthouse desktop](assets/validator_results/lighthouse_result_desktop.png)
+
+
+* Lighthouse test mobile:
+![lighthouse mobile](assets/validator_results/lighthouse_result_mobile.png)
 
 
 
@@ -581,154 +618,108 @@ I used the W3c Markup validator, the W3C CSS Validator and the PyLinter built in
 
 * If the user has a chrome download bar (the bar that contains your downloaded item) at the bottom of the desktop screen it will push some text upwards on the signup and login pages.
 
+* The add remove items from the checkout screen is uneven and ugly on the mobile view. This is a throwback to the boutique ado code which was used in this section of the project.
 
 
 
+# <u>Testing user stories</u>
 
 
 
+1. As a As a regular visitor to the store I can easily pay for my selected products so that I am more likely to visit the store again
+
+* Goal - This user story was requested to ensure the user had a seamless path from selecting a product to buying the product
+
+* Action - I logged in as a registered user and processed a purchase. I was able to complete my purchase quickly and hassle free.
+
+* Expected Outcome - Simple and standard track from logging in to product purchase.
+
+* Actual Outcome - As a user I was able to log in, select my product and purchase my product in a very user friendly and quick fashion.
+
+* Test passed - Yes.
 
 
+2. As a regular visitor to the store I can gather my selected products in a user friendly shopping cart so that I can review and pay for my products with ease
 
+* Goal - Implement a very standard and common shopping cart/bag function
 
+* Action - I processed an prder of a number of stock items.
 
-# <u>Testing</u>
+* Expected Outcome - The stock items would gather in a structured order in the cart and display a user friendly summary.
 
-## <u>Browser Compatibility</u>
-* Page loads on the most common browsers:
-
-* Chrome:
-
-![Page load on Chrome](documentation/feature_screenshots/page-load-chrome.png)
-
-* Firefox:
-
-![Page load on Firefox](documentation/feature_screenshots/page-load-firefox.png)
-
-* safari - on a mobile device due to access:
-
-![Page load on safari](documentation/feature_screenshots/page-load-safari2.png)
-
-# <u>Lighthouse Test</u>
-
-* Lighthouse test desktop:
-
-![Lighthouse test desktop](documentation/lighthouse_test/lighthouse-desktop-score.png)
-
-* Lighthouse test mobile:
-
-![Lighthouse test desktop](documentation/lighthouse_test/lighthouse-mobile-score.png)
-
-## <u>Testing User Stories</u>
-
-1. As an admin of the D15 Movie Lovers Club Blog I can approve or disapprove comments giving the admin the ability to disapprove questionable content:
-
-* Goal - This User story changed during development to a more common moderator approach. If a comment has been posted with questionable content the Admin can review and delete. This is a more typical approach to blog comment management. Therefore the goal of this test is to review and remove a questionable comment.
-
-* Action - Signed in as a user and commented on the 'Network' blog post, an arbitrary post but for the sake of the test a post that would, in a real setting, be questionable.
-
-* Expected Outcome - As the admin I was able to review the post and delete the post from the comment thread.
-
-* Actual Outcome - As the admin I was able to delete the comment.
-
-* Screenshots:
-
-![delete questionable comment](documentation/userstory-testing/questionable-comment.png)
-![delete questionable comment](documentation/userstory-testing/questionable-comment-delete.png)
-![delete questionable comment](documentation/userstory-testing/questionable-comment-removed.png)
-
-* Test passed - While the Admin function differs slightly to the user story the test passed.
-
-
-2. As a member of the D15 Movie Lovers Club and Blog I can access the blog on all my devices from Phone to Desktop
-
-* Goal - The site is responsive across Moble, Tablet and Desktop devices.
-
-* Action - Tested the site on google dev tools.
-
-* Expected Outcome - The site would be responsive to different devices.
-
-* Actual Outcome - The site was planned around responsive design and it is functional, neat and nicelt presented on each device.
-
-* Screenshots:
-
-![responsive design on mobile](documentation/userstory-testing/responsive-design-mobile.png)
-
-![responsive design on tablet](documentation/userstory-testing/responsive-design-tablet.png)
-
-![responsive design on desktop](documentation/userstory-testing/responsive-design-desktop.png)
+* Actual Outcome - The stock items when selected for purchase organised in a very standard shopping bag and displayed very clearly for the user to reference
 
 * Test passed - Yes.
 
 
 
-3. As a member of the D15 Movie Lovers Club and Blog I can recognise that the Blog page is linked to the main D15 Movie Lovers page by colour and style.
+3. As a regular visitor to the store I can add, edit and delete my reviews. (Including the three user stories here for one test method)
 
-* Goal - Use the same colour and design as the previous PP1 and PP2 projects to fit the blog into the same style with a long term goal of merging the three projects to form one viable club page.
+* Goal - Adding the review section to the site was a way to give the user more functionality and a reason to stay a little longer on the page. Users should be able to add a review of a selected stock item, edit that review and delete the review.
 
-* Action - During development I used the same colours and style as PP1 and PP2.
+* Action - I logged in as a registered user and created a review, edited the review and deleted the review.
 
-* Expected Outcome - The site to give the same feel and impression as PP1 and PP2.
+* Expected Outcome - Create, edit and delete a review.
 
-* Actual Outcome - The site can easily fit in with the style of PP1 and PP2.
-
-* Test passed - Yes.
-
-
-
-4. As a member of the D15 Movie Lovers Club and Blog I can easily find and read the blog posts.
-
-* Goal - the user should be presented with the Blog posts on the home page, they should be easily identifiable and accessible.
-
-* Action - A test user opened the site and was presented with the blog posts on the home page.
-
-* Expected Outcome - Blog posts were obvious and easy to access.
-
-* Actual Outcome - Blog posts were instantly identifiable however the access was not as straightforward as it should be. The user found it somewhat difficult to recognise clicking the Blog title would access the blog. The user expected to access the blog by clicking the movie poster. I have noted this for future improvements.
-
-* Test passed - Partially, I would like to make accesssing the blog post by clicking the cinema poster a function in a future feature. I have noted this in the future features section.
-
-
-
-5. As a member of the D15 Movie Lovers Club and Blog I can log onto the Blog with minimal fuss.
-
-* Goal - The logon page is a simple, user friendly form. Users should have a simple, minimal fuss login experience each time they visit the site.
-
-* Action - Test user logged on as username 'Ashy'.
-
-* Expected Outcome - User had a simple and intuitive experience logging in.
-
-* Actual Outcome - User was happy with the minimal fuss in logging in.
+* Actual Outcome - I was able to create, edit and delete a review.
 
 * Test passed - Yes.
 
 
 
-6. As a member of the D15 Movie Lovers Club I can register to join the blog in a simple and accessible log on page
+4. As a regular visitor to the store I can view my cart but also return to shopping without entering the payment screen so that return to shopping and payment are two separate options which makes it easier to return to shopping or go to payment
 
-* Goal - The register/signup form is simple and user friendly. Users should have an intuitive experience registering for the site.
+* Goal - adding a return to shopping button on the checkout summary will give the user an easy way to return to shopping without entering the checkout page. This makes it easier for users to purchase more items in a user friendly way.
 
-* Action - Test user registered under user name 'Jamie'.
+* Action - I logged in as a registered user and selected a stock item to purchase. Once I clicked 'Add to Bag' the checkout summary generates without proceeding to the checkout leaving me to continue shopping with ease.
 
-* Expected Outcome - User should be happy with the simple form and quick registration process.
+* Expected Outcome - Add stock items to bag, click continue shopping and continue shopping with ease.
 
-* Actual Outcome - User was happy with the process commenting on the ease of registering.
+* Actual Outcome - While there is no 'Return to Shopping' button in the checkout summary, there is instead a 'Go to secure checkout' button. This meant that I was able to continue shopping with ease without the need to click a button. This is in fact a more user friendly approach without having the user to click a button.
+
+* Test passed - Yes, I note there is no return to shoppping button on the checkput summary but there doesnt need to be. Instead I left it up to the user to click 'Go to secire checkout' when theyre ready to do so.
+
+
+
+5. As a regular visitor to the store I can filter the stock items so that I can quickly find what I am looking for.
+
+* Goal - Adding a filter function to the store gives the user the ability to filter the stock items to their preference.
+
+* Action - I logged on as a registered user and filtered the items by Price, Genre and Name .
+
+* Expected Outcome - The stock items would generate by price low to high unless I select Price High to low from the drop down list. The Genres would group one beside the other and the Name would alphabetize A-z or Z-a depending on my selection.
+
+* Actual Outcome - Genres grouped together, Price generated low to high or high to low depending on my selection and Name alphabetized A-Z or Z-a depending on my selection.
+
+* Test passed - Partially, There are options to sort by rating which has been noted for future development.
+
+
+
+6. As a regular visitor to the store I can sign up for a newsletter so that I can stay informed of new updates to the store
+
+* Goal - Adding a Newsletter to the site for registered users is a good way to keep in touch with your customers and clients. 
+
+* Action - Logged on as the superuser and sent a test newsletter to those users that signed up for the newsletter.
+
+* Expected Outcome - The newsletter would arrive in the registered users inbox.
+
+* Actual Outcome - The test newsletter arrived in the registered users inbox.
 
 * Test passed - Yes.
 
 
 
-7. As a member of the D15 Movie Lovers Club and Blog I can vote on the monthly director's best film on a simple and accessible voting/survey box.
+7. As a regular visitor to the store I can view high quality images of the products so that I can pick my desired product with ease.
 
-* Goal - Users can vote on the monthly director's best film using a simple voting function, driving up interactivity with the club site.
+* Goal - Using high quality images for the site is an essential step in ensuring your clients trust what they want to purchase.
 
-* Action - No action. This user story was removed from the project scope during development due to time constraints.
+* Action - Visited site and reviewed each stock item image. All are quality representations of the actual stock item.
 
-* Expected Outcome - No outcome.
+* Expected Outcome - High Quality images present on site.
 
-* Actual Outcome - No outcome.
+* Actual Outcome - High quality images are visible on site.
 
-* Test passed - No. This is noted for future feature development.
+* Test passed - Yes.
 
 
 
@@ -785,6 +776,19 @@ I used the W3c Markup validator, the W3C CSS Validator and the PyLinter built in
 * Actual Outcome - Comment were successfully added.
 
 * Test passed - Yes.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## <u>Known Bugs</u>
 

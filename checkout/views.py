@@ -11,6 +11,7 @@ from bag.contexts import bag_contents
 import stripe
 import json
 
+
 @require_POST
 def cache_checkout_data(request):
     try:
@@ -27,10 +28,10 @@ def cache_checkout_data(request):
             processed right now. Please try again later.')
         return HttpResponse(content=e, status=400)
 
+
 def checkout(request):
     stripe_public_key = settings.STRIPE_PUBLIC_KEY
     stripe_secret_key = settings.STRIPE_SECRET_KEY
-
 
     if request.method == 'POST':
         bag = request.session.get('bag', {})
@@ -62,7 +63,6 @@ def checkout(request):
                         quantity=item_data,
                     )
                     order_line_item.save()
-                
                 except Stockitem.DoesNotExist:
                     messages.error(request, (
                         "One of the items in your bag wasn't found in our system."
