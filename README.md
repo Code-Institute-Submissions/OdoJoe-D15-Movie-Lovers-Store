@@ -1,10 +1,14 @@
 # D15 Movie Lovers Store
 
-This is the eCommerce website of the D15 Movie Lovers Store. A store front specialising in the sale of top qulity boutique label Blu Ray, 4k UHD and special editions of Movies. The overall idea from Portfolio Project 1 to this final project was to create a full D15 Movie Lovers Club which would incorporate a Blog (Portfolio Project 4), Quiz (portfolio Project 2) and a Store Front (portfolio Project 5) to cater to a healty and growing Movie Lovers club in the Dublin 15 area. And also to grow a separate customer base with niche interets in Physical Media through this eCommerce platform. I have a secondary goal of siging up non club customers to a Newsletter with the intention of also growing the club member numbers by eventually offering Club Member only discounts and special deals, throiugh the Newsletter, in association with the UK Blu Ray labels such as Eureka, Arrow Video, Indicator and 88 films.
+This is the eCommerce website of the D15 Movie Lovers Store. A store front specialising in the sale of top qulity boutique label Blu Ray, 4k UHD and special editions of Movies. The overall idea from Portfolio Project 1 to this final project was to create a full D15 Movie Lovers Club which would incorporate a Blog (Portfolio Project 4), Quiz (portfolio Project 2) and a Store Front (portfolio Project 5) to cater to a healty and growing Movie Lovers club in the Dublin 15 area. And also to grow a separate customer base with niche interets in Physical Media through this eCommerce platform. I have a secondary goal of siging up non club customers to a Newsletter with the intention of also growing the club member numbers by eventually offering Club Member only discounts and special deals, through the Newsletter, in association with the UK Blu Ray labels such as Eureka, Arrow Video, Indicator and 88 films.
 
-![Responsive design image](documentation/feature_screenshots/responsive-design.png)
+![Responsive design mockup](assets/features/responsive_mockup.png)
 
-View live site here: 
+
+
+# View live site here: https://d15-movie-lovers-store.herokuapp.com/
+
+
 
 
 # Marketing Strategy
@@ -262,59 +266,184 @@ As the site is a movie physical media store I have included 11 films as example 
 
 * Nav Bar, built using bootstrap and visible across the site
 
+
 ![Nav Bar](assets/features/nav_bar.png)
+
 
 * My Account and Bag buttons on the Nav Bar highlights when hovered on
 
+
 ![my account and bag hover](assets/features/my_account_highlight.png)
+
 
 ![my account and bag hover](assets/features/bag_highlight.png)
 
+
 * Every button on the site highlights when hovered on:
+
 
 ![button idle](assets/features/keep_shopping_button_idle.png)
 
+
 ![button hover](assets/features/keep_shopping_button_hover.png)
 
-* Drop down list generates when user clicks on the My Account button:
+
+* Drop down list generates when user clicks on the My Account button Superuser example:
+
 
 ![my account dropdown](assets/features/my_account_dropdown_list.png)
 
+
+
+* Drop down list generates when user clicks on the My Account button non Superuser example:
+
+
+![my account dropdown](assets/features/non_superuser_myaccount_dropdown.png)
+
+
 * If there is nothing in the bag and the bag button is clicked the User is presented with a bag empty page:
+
 
 ![empty bag click](assets/features/bag_empty_page.png)
 
+
 * When the Movies and Blu Ray buttons are clicked on the nav bar a drop down menu presents to allow the user to access the type of product they're looking for with ease. If the user selects Price the products will be arranged by low to high, if the user selects Genre the Genres will be arranged alphabetically and if the User selects all products, all products will be shown. However I must note that due to timing the rating system was not implemented in development, therefore when a user clicks on this option it will generate in the same way the All Products option displays. Also to nte the Special Offers section has not yet been implemented, this has been noted for future development:
+
 
 ![movie button dropdown](assets/features/movies_dropdown.png)
 
+
 ![Blu Ray button dropdown](assets/features/blu_ray_dropdown.png)
+
 
 * Search bar in the header is fully functional:
 
+
+![search bar functionality](assets/features/search_bar_function.png)
+
+
 * The Landing page introduces the user to the site and asks the user to register:
+
+
+![landing page register](assets/features/landing_user_register.png)
+
 
 * Once the User has registered, the message changes to ask the user to sign up for the Newsletter:
 
-* The user can click onmm either the Movie image aor the movie title to generate the single product page:
 
-* When a User adds a product to the bag a checkout summary displays in the top right of the page:
+![landing page newsletter sign up](assets/features/landing_user_signup.png)
 
-* A dropdown box for sorting options (as previously noted the rating option is not functional at this time):
 
-* A user can add, edit and delete review which satisfies CRUD:
+* The user can click on either the Movie image or the movie title to generate the single product page:
 
-* A functional quantity update button added to checkut page:
+
+![single product page](assets/features/single_product_page.png)
+
+
+* When a user adds a product to the bag a bag summary displays in the top right of the page:
+
+
+![checkout summary popup](assets/features/bag_preview.png)
+
+
+* A dropdown box for sorting options displays to the right above the products to give the user the ability to sort the products by Price Low to High, Price High to Low, Name A-Z, Name Z-A, Genre A-Z and Genre Z-A (as previously noted the rating option is not functional at this time):
+
+
+![dropdown sort box](assets/features/dropdown_sort.png)
+
+
+* A user can add, edit and delete review which satisfies CRUD and is also presented with notification messages on each function:
+
+
+![review function](assets/features/add_review_empty.png)
+
+
+![review function](assets/features/Review_populated.png)
+
+
+![review function](assets/features/edit_review.png)
+
+
+![review function](assets/features/review_updated.png)
+
+
+![review function](assets/features/review_deleted.png)
+
+
+![review function message](assets/features/review_created_message.png)
+
+
+![review function message](assets/features/review_updated_message.png)
+
+
+* A functional quantity update button added to checkout page:
+
+
+![quantity update button](assets/features/quantity_update_button.png)
+
+
+* An example of quantity updated using the button:
+
+
+![quantity update button](assets/features/quantity_update_button_functional.png)
+
 
 * Order summary in the checkout page:
 
+
+![order summary in the checkout page](assets/features/order_summary.png)
+
+
 * A message displays if the user has not entered a correct email:
+
+
+![incorrect email message](assets/features/incorrect_email_message.png)
+
 
 * A message displays on successful checkout:
 
+
+![successful checkout message](assets/features/checkout_success_message.png)
+
+
 * A full order summary displays once the checkout is complete:
 
+
+![full order summary](assets/features/checkout_complete_summary.png)
+
+
+* When a user signs in they recieve a successful sign in message:
+
+
+![successful sign in message](assets/features/successfully_sign_in_message.png)
+
+
+* When a user wishes to sign out they will be prompted with a signout page:
+
+
+![sign out page](assets/features/signout_page.png)
+
+
 * A custom 404 page was added:
+
+
+![custom 404 page](assets/features/custom_404page.png)
+
+
+* Django amin panel was used for this project. Out of the box it enables full administration functions. I include a screenshot of the base page below to give the reader an indication of the different functions added as per project requirements:
+
+
+![django admin panel](assets/features/django_admin_panel_base_page.png)
+
+
+* Newsletter functionality. As the superuser I can write up a newsletter and send it to the subscribers. The send Newsletter option only generates in the superuser profile drop down list as per example included above. Screenshots of the Newsletter functionality included below, which includes a new user email generated from https://10minutemail.net/:
+
+
+
+* When the user clicks 'Shop Now' on the landing page, they are presented with all products. They can then sort and search as they need as per feature entries above.
+
+
+
 
 
 
@@ -395,7 +524,7 @@ As the site is a movie physical media store I have included 11 films as example 
 
 * The empty space to the right of the home page will be used to display the voting options as previously noted
 
-
+* My Profile
 
 
 

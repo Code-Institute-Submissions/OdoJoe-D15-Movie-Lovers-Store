@@ -91,7 +91,7 @@
                         <div class="form-check form-check-inline float-right mr-0">
 							{% if user.is_authenticated %}
 							{% else %}
-								<label class="form-check-label" for="id-save-info">
+								<label class="form-check-label">
                                     <a class="text-info" href="{% url 'account_signup' %}">Create an account</a> or 
                                     <a class="text-info" href="{% url 'account_login' %}">login</a>
                                 </label>
