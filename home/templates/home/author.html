@@ -22,7 +22,7 @@
                 <form method="POST" action="{% url 'send_newsletter' %}">
                     {% csrf_token %}
                     <div class="newsletter-form">
-                        Subject:<br><input type="text" name="subject"/><br>
+                        Subject:<br><input type="text" name="subject"><br>
                     </div>
                     <div class="newsletter-form">
                         Content:<br><textarea name="content" rows="10" cols="50"></textarea><br>
