@@ -1,6 +1,6 @@
 # D15 Movie Lovers Store
 
-This is the eCommerce website of the D15 Movie Lovers Store. A store front specialising in the sale of top qulity boutique label Blu Ray, 4k UHD and special editions of Movies. The overall idea from Portfolio Project 1 to this final project was to create a full D15 Movie Lovers Club which would incorporate a Blog (Portfolio Project 4), Quiz (portfolio Project 2) and a Store Front (portfolio Project 5) to cater to a healty and growing Movie Lovers club in the Dublin 15 area. And also to grow a separate customer base with niche interets in Physical Media through this eCommerce platform. I have a secondary goal of siging up non club customers to a Newsletter with the intention of also growing the club member numbers by eventually offering Club Member only discounts and special deals, through the Newsletter, in association with the UK Blu Ray labels such as Eureka, Arrow Video, Indicator and 88 films.
+This is the eCommerce website of the D15 Movie Lovers Store. A store front specialising in the sale of top quality boutique label Blu Ray, 4k UHD and special editions of Movies. The overall idea from Portfolio Project 1 to this final project was to create a full D15 Movie Lovers Club which would incorporate a Blog (Portfolio Project 4), Quiz (portfolio Project 2) and a Store Front (portfolio Project 5) to cater to a healthy and growing Movie Lovers club in the Dublin 15 area. And also to grow a separate customer base with niche interests in Physical Media through this eCommerce platform. I have a secondary goal of signing up non club customers to a Newsletter with the intention of also growing the club member numbers by eventually offering Club Member only discounts and special deals, through the Newsletter, in association with the UK Blu Ray labels such as Eureka, Arrow Video, Indicator and 88 films.
 
 ![Responsive design mockup](assets/features/responsive_mockup.png)
 
@@ -15,18 +15,18 @@ This is the eCommerce website of the D15 Movie Lovers Store. A store front speci
 # Marketing Strategy
 
 ## <u>Customers</u>
-The site caters to a niche customer base. People whom appreciate the experience of watching movies in the highest quality possible. Physical media enables us to enjoy films, of all types and genres, in their best formats through modern remastering techniques, proper and original colour gradings and free from the inadequacies of streaming platforms such as poor availability of titles and artefact creep (blocky transitions) in darkly shot scenes. There is a healthy customer base of 'Movie Lovers' as evident in the availability of extremely rare films on modern boutique label releases. A quick scan of the bigger boutique lable companies in the UK such as 88 Films, Eureka, Indicator and Arrow Video (not to mention the myriad labels in the US) and its clear there is a healthy desire still for high quality physical media.
+The site caters to a niche customer base. People whom appreciate the experience of watching movies in the highest quality possible. Physical media enables us to enjoy films, of all types and genres, in their best formats through modern remastering techniques, proper and original colour gradings and free from the inadequacies of streaming platforms such as poor availability of titles and artefact creep (blocky transitions) in darkly shot scenes. There is a healthy customer base of 'Movie Lovers' as evident in the availability of extremely rare films on modern boutique label releases. A quick scan of the bigger boutique label companies in the UK such as 88 Films, Eureka, Indicator and Arrow Video (not to mention the myriad of labels in the US) and its clear there is a healthy desire still for high quality physical media.
 
 ## <u>Products</u>
-This platform will cater to the Irish customer base and I believe it is the only Physical Media dedicated site in Ireland. The primary product focus is the sale of high quality Blu Ray, 4k UHD and Special Editions of films. The product will be sourced in bulk from the UK labels 88Films, Eureka, Arrow Video and Indicator. With future expansion the company could source US editions from labels such as Vinegar Syndrome, Shout Factiry, Scream Factory etc. The company also intends to stock Movie Memoribillia, T-Shirts, Action Figures, Vinyl Soundtracks etc as the customer base grows.
+This platform will cater to the Irish customer base and I believe it is the only Physical Media dedicated site in Ireland. The primary product focus is the sale of high quality Blu Ray, 4k UHD and Special Editions of films. The product will be sourced in bulk from the UK labels 88Films, Eureka, Arrow Video and Indicator. With future expansion the company could source US editions from labels such as Vinegar Syndrome, Shout Factory, Scream Factory etc. The company also intends to stock Movie Memorabilia, T-Shirts, Action Figures, Vinyl Soundtracks etc as the customer base grows.
 
 ## <u>Payment</u>
-Stripe has been implemented to the site as a relatively user friendly payment system. The payment structure to the site is a common process. CLient will add the items they wish to buy to the Bag, enter sucre checkout, validate the purchases on the summary, enter the payment screen, enter personal details and credit card details and complete purchase.
+Stripe has been implemented to the site as a relatively user friendly payment system. The payment structure to the site is a common process. Client will add the items they wish to buy to the Bag, enter secure checkout, validate the purchases on the summary, enter the payment screen, enter personal details and credit card details and complete purchase.
 
 
 # Web Marketing
 ## Users:
-Users are people interested in Physical Media collecting and Movie Lovers. Users can regularly be found in dedicated blogs, Dedicated FaceBook groups, Instagram channels and commenting on Physical Media youtube videos. While its hard to make an informed judgement on the age group of Physical Media customers I will say, from my own engagements and club membershibs, that it seems to be more common in the 30-60 age group. 
+Users are people interested in Physical Media collecting and Movie Lovers. Users can regularly be found in dedicated blogs, Dedicated FaceBook groups, Instagram channels and commenting on Physical Media youtube videos. While it's hard to make an informed judgement on the age group of Physical Media customers I will say, from my own engagements and club memberships, that it seems to be more common in the 30-60 age group. 
 
 ## Which Social Media Platform to use for promotion:
 According to Hootsuite.com (Link: https://blog.hootsuite.com/facebook-statistics/):
@@ -35,7 +35,7 @@ According to Hootsuite.com (Link: https://blog.hootsuite.com/facebook-statistics
 - Facebook marketplace ads reach 562 million people.
 - 79% of monthly users are active daily and finally Facebook is the favourite social platform of the 35-44 demographic.
 
-It is clear from the stats above that using Facebook to promote the D15 Movie Lovers Store is essential. However Youtube and Instagram will also be implemented in the future. According to Wallaroomedia (link: https://wallaroomedia.com/blog/social-media/tiktok-statistics/) 80% of US Tik Tok Users are aged between 18-34. The age range and the general use of Tik Tok as a performance platform I dont see how Tik Tok could help the promotion of the D15 Movie Lovers Store at this time. Efforts should be spent on promotion through Facebook.
+It is clear from the stats above that using Facebook to promote the D15 Movie Lovers Store is essential. However Youtube and Instagram will also be implemented in the future. According to Wallaroomedia (link: https://wallaroomedia.com/blog/social-media/tiktok-statistics/) 80% of US Tik Tok Users are aged between 18-34. The age range and the general use of Tik Tok as a performance platform I don't see how Tik Tok could help the promotion of the D15 Movie Lovers Store at this time. Efforts should be spent on promotion through Facebook.
 
 ## Online Content and User engagement:
 From my own experiences as a movie collector and avid Physical Media champion I find a lot of my information comes from Facebook groups, Youtube creators and reviewers and Instagram influencers regularly creating content around upcoming releases, rumoured releases and unboxing and review based content. It is my intention to start a channel with Youtube and a page with Instagram to compliment the Facebook page at a future date. Online creators have been instrumental in my own sourcing of Blu Ray, 4k UHD and special editions of certain Movies and I believe I can also engage with customers, Club Members and a wider untapped audience through such content.
@@ -46,10 +46,10 @@ The business will run Sales over holiday periods and intermittent Club Member di
 ## Business Goals and strategy:
 The business goal is to first and foremost sell our product, for profit to our target demographic. A secondary goal is to add memebers to the D15 Movie Lovers Club and to grow the business customer base in Ireland using the Club and Newsletter. The marketing strategy for the site will be Search Engine Optimisation, email marketing through the Newsletter and social media marketing with the implementation of a Facebook page. I intend to grow the Facebook page and regularly post updates on new releases, low stock items, general movie 'banter' etc.
 
-The beauty of using basic SEO, the Facebook page and the Newsletter for marketing is its free. I dont intend to spend on advertising until I know I have used this strategy as far as it will take the platform.
+The beauty of using basic SEO, the Facebook page and the Newsletter for marketing is its free. I don't intend to spend on advertising until I know I have used this strategy as far as it will take the platform.
 
 ## Email Marketing
-I set up a custom Newsletter service. Once the User registers with t he site they can then sign up for the Newsletter.
+I set up a custom Newsletter service. Once the User registers with the site they can then sign up for the Newsletter.
 
 ## Facebook page:
 ![facebook shot 1](media/fb_shot_1.png)
@@ -63,7 +63,7 @@ Please see Privacy Policy here:
 https://www.privacypolicygenerator.info/live.php?token=rvpuphBIoDGo13y658txPwQQ9RnYARQQ
 
 ## Search Engine Optimization:
-The site was built with Key Words in Mind. Throughput tghe site you will note th euse of keywords directly related to Movies. A basic list of keywords I include below for reference:
+The site was built with Key Words in Mind. Throughput the site you will note the use of keywords directly related to Movies. A basic list of keywords I include below for reference:
 
 ![seo keywords](media/keywords_seo.png)
 
@@ -75,7 +75,7 @@ A sitemap was generated and included using XML-sitemaps.com. This lists the rele
 4. Make sure the file is named 'sitemap.xml and add it to the root folder 
 
 ## robots.txt
-I created a robots.txt file to ensure search engines dont crawl through sensitive sections of the site. Which ultimately facilitates a mre robust search engine process and imporving the SEO overall.
+I created a robots.txt file to ensure search engines dont crawl through sensitive sections of the site. Which ultimately facilitates a more robust search engine process and improving the SEO overall.
 
 ![robots.txt](media/robots.txt_pic.png)
 
@@ -172,7 +172,7 @@ The project scope was reduced and simplified as I approached my deadline. I deci
 
 The user stories relating to 'ratings', 'Notify me', 'Stock availability' and 'social media presence', while not implemented at this stage of development due to timing constraints will be added to the store at a later date.
 
-I relyed very heavily on the course content walkthrough project 'Boutique Ado' and while a lot of the desigin elements from the project has carried over I made sure to 'reengineer' the design to my own purposes. Hence the colour scheme and Typograpy are used from the previous portfolio projects PP1, PP2 and PP4. This is to maintain a uniform approach so as when the individual projects are merged into one Store/Club offering for the D15 area, the design will match.
+I relied very heavily on the course content walkthrough project 'Boutique Ado' and while a lot of the desigin elements from the project has carried over I made sure to 'reengineer' the design to my own purposes. Hence the colour scheme and Typograpy are used from the previous portfolio projects PP1, PP2 and PP4. This is to maintain a uniform approach so as when the individual projects are merged into one Store/Club offering for the D15 area, the design will match.
 
 The main colour scheme used is:
 - Background Colour: #2F4F4F
@@ -314,7 +314,7 @@ As the site is a movie physical media store I have included 11 films as example 
 ![empty bag click](assets/features/bag_empty_page.png)
 
 
-* When the Movies and Blu Ray buttons are clicked on the nav bar a drop down menu presents to allow the user to access the type of product they're looking for with ease. If the user selects Price the products will be arranged by low to high, if the user selects Genre the Genres will be arranged alphabetically and if the User selects all products, all products will be shown. However I must note that due to timing the rating system was not implemented in development, therefore when a user clicks on this option it will generate in the same way the All Products option displays. Also to nte the Special Offers section has not yet been implemented, this has been noted for future development:
+* When the Movies and Blu Ray buttons are clicked on the nav bar a drop down menu presents to allow the user to access the type of product they're looking for with ease. If the user selects Price the products will be arranged by low to high, if the user selects Genre the Genres will be arranged alphabetically and if the User selects all products, all products will be shown. However I must note that due to timing the rating system was not implemented in development, therefore when a user clicks on this option it will generate in the same way the All Products option displays. Also to note the Special Offers section has not yet been implemented, this has been noted for future development:
 
 
 ![movie button dropdown](assets/features/movies_dropdown.png)
@@ -437,7 +437,7 @@ As the site is a movie physical media store I have included 11 films as example 
 ![custom 404 page](assets/features/custom_404page.png)
 
 
-* Django amin panel was used for this project. Out of the box it enables full administration functions. I include a screenshot of the base page below to give the reader an indication of the different functions added as per project requirements:
+* Django admin panel was used for this project. Out of the box it enables full administration functions. I include a screenshot of the base page below to give the reader an indication of the different functions added as per project requirements:
 
 
 ![django admin panel](assets/features/django_admin_panel_base_page.png)
@@ -503,6 +503,8 @@ As the site is a movie physical media store I have included 11 films as example 
 * I also plan to develop a club logo and replace the rudimentary D15 Movie Lovers heading on each of the PP1, PP2, PP4 and PP5 projects.
 
 * The product descriptions accompanying each product was copied from Amazon. I would prefer to take the time to write up my own product descriptions for each stock item.
+
+* Fixing the Nav Bar for Mobile devices. While in its current state it is fully functional It looks uneven and needs further development to align across the top of the header.
 
 
 ## <u>Testing</u>
@@ -599,7 +601,7 @@ I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built
 
 ![models.py products](assets/validator_results/models.py_products.png)
 
-* I note there are some 'line to long' errors within the pylint results. I believe these errors are not a big problem and at risk of breaking code I left them as they were.
+* I note there are some 'line too long' errors within the pylint results. I believe these errors are not a big problem and at risk of breaking code I left them as they were.
 
 
 # lighthouse test:
@@ -620,13 +622,17 @@ I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built
 
 * The add remove items from the checkout screen is uneven and ugly on the mobile view. This is a throwback to the boutique ado code which was used in this section of the project.
 
+* I have used a generic SKU number for the products - I was unsure where to fiund the actual skus. I decided to use a general sku for the purposes of showing where the SKU would go. This is obviously an importnat item and can be fixed/implemented at a later date.
+
+* There was an attempt made to implement cloudinary however this was scrapped. You will note veistigaes of the attempt in the requirements.txt file
+
+* Due to the Heroku changeover (dyno change and chare structure implemented) I deployed early. When I loaded my site locally my static files didnt render. I fixed this after some time by changing Debug back to True.
+
 
 
 # <u>Testing user stories</u>
 
-
-
-1. As a As a regular visitor to the store I can easily pay for my selected products so that I am more likely to visit the store again
+1. As a regular visitor to the store I can easily pay for my selected products so that I am more likely to visit the store again
 
 * Goal - This user story was requested to ensure the user had a seamless path from selecting a product to buying the product
 
@@ -643,7 +649,7 @@ I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built
 
 * Goal - Implement a very standard and common shopping cart/bag function
 
-* Action - I processed an prder of a number of stock items.
+* Action - I processed an order of a number of stock items.
 
 * Expected Outcome - The stock items would gather in a structured order in the cart and display a user friendly summary.
 
@@ -677,7 +683,7 @@ I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built
 
 * Actual Outcome - While there is no 'Return to Shopping' button in the checkout summary, there is instead a 'Go to secure checkout' button. This meant that I was able to continue shopping with ease without the need to click a button. This is in fact a more user friendly approach without having the user to click a button.
 
-* Test passed - Yes, I note there is no return to shoppping button on the checkput summary but there doesnt need to be. Instead I left it up to the user to click 'Go to secire checkout' when theyre ready to do so.
+* Test passed - Yes, I note there is no return to shoppping button on the checkput summary but there doesnt need to be. Instead I left it up to the user to click 'Go to secure checkout' when they are ready to do so.
 
 
 
@@ -723,108 +729,123 @@ I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built
 
 
 
-8. As a member of the D15 Movie Lovers Club and Blog I can add suggestions to a suggestion submission box for the next monthly Director focus.
+8. As a regular visitor to the store I can easily search for products so that I can find specific products without the need to view all products.
 
-* Goal - Users could poll or vote on the next month Director focus using a simple voting function, driving up interactivity with the club site.
+* Goal - Adding a search function to the site gives users the ability to search for a single item further streamlining their experience.
 
-* Action - No action. This user story was removed from the project scope during development due to time constraints.
+* Action - Logged onto the site and searched for each stock item separately.
 
-* Expected Outcome - No outcome.
+* Expected Outcome - Each stock item would show when I search for it.
 
-* Actual Outcome - No outcome.
-
-* Test passed - No. This is noted for future feature development.
-
-
-
-9. As a member of the D15 Movie Lovers Club and Blog I can delete my comments made to Blog Posts.
-
-* Goal - Users can delete their own comments on Blog posts.
-
-* Action - Test User 'Ashy' logged in, made and deleted a comment.
-
-* Expected Outcome - Comment would be successfully deleted.
-
-* Actual Outcome - Comment was successfully deleted.
+* Actual Outcome - On each search the right stock item would present on clicking search.
 
 * Test passed - Yes.
 
 
 
-10. As a member of the D15 Movie Lovers Club and Blog I can edit my comments on Blog Posts.
+9. As a regular visitor to the store I can read simple product descriptions so that I am better informed of my product choices.
 
-* Goal - Users can edit their own comments on Blog posts.
+* Goal - Each stock item should have a detailed breakdown of the item accompanying the high quality image. This is an essential step in securing repeat custom.
 
-* Action - Test User 'Ashy' logged in, made and edited a comment.
+* Action - logged on to site and inspected each stock item. A detailed product description accompanies each stock item.
 
-* Expected Outcome - Comment would be successfully edited.
+* Expected Outcome - A detailed product description accompanies each stock item.
 
-* Actual Outcome - Comment was successfully edited.
-
-* Test passed - Yes.
-
-
-
-11. As a member of the D15 Movie Lovers Club and Blog I can comment on a Blog Post.
-
-* Goal - Users can make comments on Blog posts.
-
-* Action - Test User 'Ashy' logged in and made comments on each blog post.
-
-* Expected Outcome - User would make the comments and they would be displayed appropriately in the comment thread under the posts.
-
-* Actual Outcome - Comment were successfully added.
+* Actual Outcome - each stock item has a detailed description.
 
 * Test passed - Yes.
 
 
 
+10. As a regular visitor to the store I can login with ease so that I can get to shopping quickly or write up reviews
+
+* Goal - Easy log in should be an essential addition to this site giving users a peace of mind that to shop on this site is hassle free.
+
+* Action - logged on and started shopping.
+
+* Expected Outcome - I would log in very quickly.
+
+* Actual Outcome - I logged in very quickly.
+
+* Test passed - Yes.
 
 
 
+11. As a regular visitor to the store I can leave reviews and ratings so that I can help better inform the next person of the quality of the product
+
+* Goal - adding a rating system to accompany the review functionality would make the site more dynamic for returning users nd give existing users a reason to visit the site more often.
+
+* Action - Logged in and wrote a review however I was unable to leave a rating.
+
+* Expected Outcome - Ability to write a review however unable to leave a rating
+
+* Actual Outcome - Review was written however I was unable to leave a rating.
+
+* Test passed - partially, the rating functionality has been noted for future development.
 
 
 
+12. As a regular visitor to the store I can easily visit the stores social media presence so that I can engage with the business more regularly
+
+* Goal - Including links to social media is essential to maintaining engagement with the users and clients.
+
+* Action - No action - this has been included for future development.
+
+* Expected Outcome - No expected outcome - noted for future development
+
+* Actual Outcome - No Outcome.
+
+* Test No - This work item has been noted for future development.
 
 
 
+13. As a regular visitor to the store I can clearly see stock availability for each product so that I can make a more informed decision when shopping.
+
+* Goal - Including stock availability numbers is a good idea to keep the users informed of stock levels. This will become particularly pertinent when stocking special editions or limited editions.
+
+* Action - No action - this has been included for future development.
+
+* Expected Outcome - No expected outcome - noted for future development
+
+* Actual Outcome - No Outcome.
+
+* Test No - This work item has been noted for future development.
 
 
-## <u>Known Bugs</u>
 
-* The create comment submission view returns to the Post Detail page without clearing the form request. As a result if the user hits refresh the form will be resubmitted and the same comment will be created again. This is a future fix.
+14. As a regular visitor to the store I can select a 'Notify Me' option when a product is out of stock so that I am notified when the product is in stock.
 
-* The comment image populates a cut off portion of the main post image. This will be redesigned in a future update to display a more complete image.
+* Goal - Adding this functionality would give users the ability to click a 'Notify me when back in stock' button giving users the peace of mind that should the item they want arrive back in stock they will be notified.
 
-* I encountered an issue when trying to launch my project from Github - The installed programs were not recognised. Tutor support helped me to revert back to a previous work space on Gitpod. The learning is to launch the project from Gitpod.
+* Action - No action - this has been included for future development.
 
-## <u>CSS Validator</u>
+* Expected Outcome - No expected outcome - noted for future development
 
-![css validation](documentation/validator-tests/css-validator.png)
+* Actual Outcome - No Outcome.
 
-## <u>HTML Validator</u>
-![HTML about Validation](documentation/validator-tests/about-validator.png)
+* Test No - This work item has been noted for future development.
 
-![HTML home Validation](documentation/validator-tests/index-validator.png)
+## Further Testing:
 
-![HTML post detail Validation](documentation/validator-tests/postdetail-validator.png)
-* Please note, a stray /p tag has been introduced by the rich text box used by django to enter the post.
+* I tested the site extensively, all links, pages and functions are working and in a good state.
 
-![HTML edit comment Validation](documentation/validator-tests/edit-validator.png)
+* A huge amount of testing was done with friends and family Members. My wife proof read this ReadMe file. General feedback was very positive.
 
-![HTML delete comment Validation](documentation/validator-tests/delete-validator.png)
+* I tested the site on Google Chrome, Mozilla Firefox and Microsoft Edge. I did not test it on Internet Explorer as it is no longer supported.
 
-## <u>Python Validator</u>
+* The site is fully functional across Desktop, Tablet and mobile devices. However as noted for future development the Nav Bar needs work in mobile view.
 
-![python settings pylint](documentation/validator-tests/settings-pylint.png)
 
-![python models pylint](documentation/validator-tests/models-pylint.png)
+# <u>Security</u>
 
-![python views pylint](documentation/validator-tests/views-pylint.png)
+* CSRF Tokens were used in the development cycle
+* DEBUG was set to false before deployment
+* All secret keys were hidden
+* Stripe implements its own security on transactions
+* The site uses registration for users which includes a verification system via a verification email sent to the users inbox. This hjleps prevent unwanted users having easy access to the site
+* Defensive Design is inherent in Django preventing users submitting empty forms etc
 
-![python urls pylint](documentation/validator-tests/urls-pylint.png)
 
-![python forms pylint](documentation/validator-tests/forms-pylint.png)
 
 ## <u>Technologies Used</u>
 
@@ -835,9 +856,6 @@ I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built
 * Django
 * Allauth - within Django framework
 * Crispy Forms - within Django framework
-* gunicorn - within Django framework
-* Summernotes - within Django framework
-* Cloudinary
 * Heroku postgres
 * Gitpod
 * Github
@@ -847,54 +865,100 @@ I used the W3c Markup validator, the W3C CSS Validator and the Pylint tool built
 * W3C CSS Validation
 * Pylint python Validation
 * Javascript
+* Stripe
+* AWS
+* elephantSQL
+* jsonformatter.org
+* 10minutemail.net
+* xmlsitemaps
+* Django secret ket generator
 
-## <u>Heroku</u>
-
-* Project started in Github and launched in Gitpod
 
 ## <u>Deployment</u>
-1. As advised in the course walkthrough, I deployed my skeleton project to heroku early to deal with any issues at the beginning.
 
-2. I created a heroku profile and submitted a request to use Postgres linking my project to heroku
+Heroku was used to deploy the site. The project was deployed using the following steps:
 
-3. I copied the Postgres link to my config vars
+1. Log into Heroku and create a new app
 
-4. In the Heroku Settings tab I clicked on "Reveal Config Vars". I copied the automatically-added postgres link from beside the DATABASE_URL variable.
+2. Create an external database using ElephantSQL
 
-5. I put this value into env.py in a database url setting.
+3. Log into Elephant SQL, click create new instance
 
-6. I added the SECRET_KEY into the env.py file after having it generated on the Django Secret Key Generator.
+4. Set up plan, select Tiny Turtle which is free, leave tags field blank
 
-7. I added the secret key into the Heroku Settings > config vars.
+5. Select your region, mine was amazon-web-services::eu-west-1
 
-8. In the settings.py file I imported os and added an if statement noting that outside the development environment the environment variables must be used from env.py, including the secret key.
+6. Click Review
 
-9. In settings.py file, I deleted the present code for databases and added code to use the currently set up django database URL as set in the env.py file and also in the Heroku config vars.
+7. Ensure details are accurate and click Create Instance
 
-10. I migrated these changes in Gitpod using python3 manage.py migrate.
+8. Return to the ElephantSQL dashhboard and click on your project instance
 
-11. To set up Cloudinary, I copied the API Environment Variable from my cloudinary profile.
+9. Copy the URL to the clipboard
 
-12. I added this to env.py and into the Heroku Settings > config vars.
+10. In the terminal install dj_database_url and psycopg2 to connect to the external database
 
-13. I also added DISABLE_COLLECTATIC = 1 to the Heroku config vars for debug only. Before final deployment I removed this setting from heroku.
+11. Update the requirements.txt file
 
-14. cloudinary and cloudinary_storage were added to the installed apps in settings.py.
+12. Import dj_database_url in the settings.py file
 
-15. I created 3 directories: Media, Static and Templates as well as the procfile.
+13. Run the showmigrations command to confirm you are connected to the external database
 
-16. The skeleton project ran successfully on heroku.
+14. Migrate the database models
 
-17. I removed DISABLE_COLLECTSTATIC and set debug to false for final deployment.
+15. Create a superuser
 
-18. Deployed to heroku.
+16. On the elephantSQL page for the database select browser
 
-19. Completed final tests on deployed page.
+17. Click the table queries button and select auth_user
+
+18. On the deploy tab on Heroku, click settings, click reveal config vars
+
+19. Add the following: 
+- DATABASE_URL followed by the URL of the ELephantSQL database
+- PORT 8000
+- SECRET_KEY followed by the project secret key
+- DISABLE_COLLECT_STATIC (for development only this should be removed when deploying the site)
+
+20. On the Deploy tab, connect to GitHub, (search for the repository name)
+
+21. At the bottom of the deploy page, Enable Automatic Deploys. This allows for automatic deployment when you push to GitHub
+
+
+## <u>Forking the GitHub Repository</u>
+
+We can make a copy of the of the original repository by forking the GitHub repository. This allows us to view or amend the without affecting the original repository
+
+1. Log in to GitHub and select the repository
+
+2. The fork Button is located at the top of the Repository, click it
+
+3. A copy of the Repository should be created
+
+
+## <u>Making a local clone</u>
+
+1. Log into GitHUb
+2. Select the Repository
+3. Click Clone or Download
+4. To clone the repository using HTTPS under 'Clone with HTTPS' copy the link
+5. Open Git Bash
+6. Change the working directory to the location where you want the cloned directory
+7. Type 'git clone' and paste the URL
+8. Press enter and the local clone will be created
 
 
 ## <u>Credits</u>
-* I heavily relied on the course content walkthrough project for the Code Star blog presented by Matt Rudge. The entire project was built using the guidance of Matt's course content in particular the boostrap application and some CSS which I used from the walkthrough to help make the site responsive. My sincere thanks to Matt and his content as without it I don't think I would've completed this project.
+* I heavily relied on the course content walkthrough project for Boutique Ado. The entire project was built using the guidance of the Boutique Ado course content in particular the boostrap application and some CSS which I used from the walkthrough to help make the site responsive and functional. My sincere thanks to Code Institute for the Boutique Ado Walkthrough Project content as without it I would not have completed this project.
 
-* My wife and children for their unwavering support and patience.
+* Stack Overflow, W3Schools web tutorials.
 
-* Mike Sheehan, Brian O'Grady and Matt Rudge for their helpful online meetings
+## <u>Acknowledgments</u>
+
+* My wife and children for their unwavering support and patience. Finally now I can make up for lost time over this extremely difficult year
+
+* Tutor support
+
+* Mike Sheehan for his unwavering support
+
+* Kevin Loughrey for his invaluable tutoring and encouragement in the darkest hours
